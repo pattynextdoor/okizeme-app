@@ -1,54 +1,49 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import UIShell from '../components/templates/UIShell'
 
-export default function Home() {
+import fs from 'fs'
+
+import UIShell from '../components/templates/UIShell'
+import HomeArticleCard from '../components/molecules/HomeArticleCard'
+
+export default function Home({slugs}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Okizeme | High Level Content</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <UIShell></UIShell>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Okizeme
         </h1>
+        <hr width="300"></hr>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+         high level content
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <HomeArticleCard title="The Complete FGC Dictionary"
+                           description="Your one-stop-shop for all things FGC"
+                           src="complete-fgc-dictionary"></HomeArticleCard>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          <HomeArticleCard title="Understanding the frame data of Greninja dragdowns"
+                           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                           src="#"></HomeArticleCard>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <HomeArticleCard title="The thrill of the comeback"
+                           description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                           src="#"></HomeArticleCard>
+
+          <HomeArticleCard title="3 aggressive Cypher camera angles to use in silver rank"
+                           description="Ipsum iuvaret epicuri pri at, mei fastidii abhorreant consectetuer no"
+                           src="#"></HomeArticleCard>
+
         </div>
       </main>
 
@@ -64,4 +59,14 @@ export default function Home() {
       </footer>
     </div>
   )
+}
+
+export const getStaticProps = async () => {
+  const files = fs.readdirSync('src/posts')
+
+  return {
+    props: {
+      slugs: files.map(filename => filename.replace('.md', ''))
+    }
+  }
 }

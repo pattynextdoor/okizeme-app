@@ -34,12 +34,18 @@ export default function UIShell() {
         margin: "0 auto",
         display: "block",
         borderRadius: "50%",
+        boxShadow: "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)",
         width: "75px"
     }
 
+    const componentStyle = {
+        marginBottom: "5%"
+    }
+
     return(
-        <Header aria-label="Okizeme" > 
-            <HeaderName href="#" prefix="Okizeme"> 
+        <Header aria-label="Okizeme"
+                style={componentStyle} > 
+            <HeaderName href="/" prefix="Okizeme"> 
                 [Platform]
             </HeaderName>
             <HeaderNavigation>
@@ -55,11 +61,11 @@ export default function UIShell() {
             </HeaderNavigation>
             <HeaderGlobalBar>
                 <HeaderGlobalAction aria-label="Search"
-                                    onclick={console.log('search')}> 
+                                    onclick={console.log('search clicked')}> 
                     <Search20/>
                 </HeaderGlobalAction>
                 <HeaderGlobalAction aria-label="Right Nav"
-                                    onclick={console.log('right nav')}> 
+                                    onclick={console.log('right nav clicked')}> 
                     <AppSwitcher20/>
                 </HeaderGlobalAction>
             </HeaderGlobalBar>
@@ -71,9 +77,10 @@ export default function UIShell() {
                         <TileAboveTheFoldContent>
                             <img style={tileImgStyle}
                                 src="greninja.jpg"/>
+
+                            <h4 style={unameStyle}>pattynextdoor</h4>
                         </TileAboveTheFoldContent>
                         <TileBelowTheFoldContent>
-                            <h4 style={unameStyle}>Patrick Tumbucon</h4>
                         </TileBelowTheFoldContent>
                     </ExpandableTile>
 
