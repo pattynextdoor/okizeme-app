@@ -17,11 +17,14 @@ import {
     TileAboveTheFoldContent,
     TileBelowTheFoldContent
 } from 'carbon-components-react'
+
 import {
     Home32,
     Search20,
     AppSwitcher20
 } from '@carbon/icons-react'
+
+import anime from 'animejs'
 
 export default function UIShell() {
 
