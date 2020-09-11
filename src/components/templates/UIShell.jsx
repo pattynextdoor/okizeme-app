@@ -13,7 +13,7 @@ import {
     SideNavMenuItem,
     SideNavLink,
 
-    ExpandableTile,
+    ClickableTile,
     TileAboveTheFoldContent,
     TileBelowTheFoldContent
 } from 'carbon-components-react'
@@ -23,6 +23,8 @@ import {
     Search20,
     AppSwitcher20
 } from '@carbon/icons-react'
+
+import styles from '../../styles/UIShell.module.scss'
 
 import anime from 'animejs'
 
@@ -73,27 +75,27 @@ export default function UIShell() {
                 </HeaderGlobalAction>
             </HeaderGlobalBar>
 
-            <SideNav>
+            <SideNav className={styles.sideNav}>
                 <SideNavItems>
 
-                    <ExpandableTile>
+                    <ClickableTile>
                         <TileAboveTheFoldContent>
                             <img style={tileImgStyle}
                                 src="greninja.jpg"/>
 
-                            <h4 style={unameStyle}>pattynextdoor</h4>
+                            <p style={unameStyle}>pattynextdoor</p>
                         </TileAboveTheFoldContent>
                         <TileBelowTheFoldContent>
                         </TileBelowTheFoldContent>
-                    </ExpandableTile>
+                    </ClickableTile>
 
-                    <SideNavMenu title="My Communities">
+                    <SideNavMenu title="Communities">
                         <SideNavMenuItem>Oolong Wonderland</SideNavMenuItem>
                         <SideNavMenuItem>Pattynextdoor's Cafe</SideNavMenuItem>
                         <SideNavMenuItem>Guccicrocs Wonderland</SideNavMenuItem>
                     </SideNavMenu>
 
-                    <SideNavMenu title="My Forums">
+                    <SideNavMenu title="Forums">
                         <SideNavMenuItem>Smash Ultimate - Greninja</SideNavMenuItem>
                         <SideNavMenuItem>Mortal Kombat 11 - Fundamentals</SideNavMenuItem>
                     </SideNavMenu>

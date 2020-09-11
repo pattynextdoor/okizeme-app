@@ -17,31 +17,38 @@ export default function Home({slugs}) {
 
       <main className={styles.main}>
         <UIShell></UIShell>
-        <h1 className={styles.title}>
-          Okizeme
-        </h1>
-        <hr width="300"></hr>
 
-        <p className={styles.description}>
-         high level content
-        </p>
+        <div className={styles.hero}>
+          <h1 className={styles.title}>
+            Okizeme
+          </h1>
+          <hr></hr>
+
+          <p className={styles.description}>
+          high level content
+          </p>
+        </div>
+        
+
+        <div className={styles.latestNews}>
+          <h2>Latest Articles</h2>
+        </div>
 
         <div className={styles.grid}>
 
           <HomeArticleCard title="The Complete FGC Dictionary"
                            description="Your one-stop-shop for all things FGC"
+                           imgSrc="https://media.giphy.com/media/39zbpCQocXLi0/giphy.gif"
                            src="complete-fgc-dictionary"></HomeArticleCard>
 
           <HomeArticleCard title="Understanding the frame data of Greninja dragdowns"
-                           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                           imgSrc="https://comicvine1.cbsistatic.com/uploads/original/11135/111358950/7338962-ash-greninja-gif-9.gif"
                            src="#"></HomeArticleCard>
 
-          <HomeArticleCard title="The thrill of the comeback"
+          <HomeArticleCard title="Take a break! 3 reasons why stepping away from the game can improve performance"
                            description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                           src="#"></HomeArticleCard>
-
-          <HomeArticleCard title="3 aggressive Cypher camera angles to use in silver rank"
-                           description="Ipsum iuvaret epicuri pri at, mei fastidii abhorreant consectetuer no"
+                           imgSrc="https://pbs.twimg.com/media/EY6eByhVAAIwCI6.png"
                            src="#"></HomeArticleCard>
 
         </div>

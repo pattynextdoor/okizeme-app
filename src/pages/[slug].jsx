@@ -39,7 +39,6 @@ const Post = ({htmlString, data}) => {
 
                 h1, h2, h3, h4 {
                    margin: 2% auto;
-                   font-family: Khula; 
                 }
 
                 p {
@@ -47,8 +46,6 @@ const Post = ({htmlString, data}) => {
                     line-height: 1.5;
                     letter-spacing: 1px;
                     color: #333;
-                    font-family: Noto Sans JP;
-
                     margin-bottom: 2%;
                 }
 

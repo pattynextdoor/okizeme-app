@@ -7,8 +7,12 @@ export default function HomeArticleCard(props) {
         <>
             <Link href="[slug]" as={props.src}>
             <a className={styles.card}>
-                <h3> {props.title} &rarr;</h3>
-                <p>{props.description}</p>
+                <img src={props.imgSrc}/>
+                <div className={styles.textContent}>
+                    <h3> {props.title} &rarr;</h3>
+                    <p>{props.description}</p>
+                </div>
+                
             </a> 
             </Link>
         </>
