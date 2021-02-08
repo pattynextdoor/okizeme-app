@@ -13,6 +13,13 @@ const Post = ({htmlString, data}) => {
         <>
             <Head>
                 <title>{data.title}</title>
+                <meta property="og:title" content={data.title}/>
+                <meta property="og:description" content={data.description}/>
+                <meta property="og:image" content={data.cover}/>
+                <meta property="og:type" content="article" />
+                <meta name="twitter:title" content={data.title}/>
+                <meta name="twitter:description" content={data.description}/>
+                <meta name="twitter:image" content={data.cover}/>
             </Head>
 
             <Header/>
