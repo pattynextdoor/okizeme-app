@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import React from 'react'
-
 import fs from 'fs'
 import path from 'path'
-
 import matter from 'gray-matter'
 import mdit from 'markdown-it'
 
-import UIShell from '../components/templates/UIShell'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Post = ({htmlString, data}) => {
     return (
@@ -15,26 +14,40 @@ const Post = ({htmlString, data}) => {
             <Head>
                 <title>{data.title}</title>
             </Head>
+
+            <Header/>
             <main>
-                <UIShell></UIShell>
+                <img className="coverImg" src={data.cover} alt={data.title} />
                 <div className="container"
                      dangerouslySetInnerHTML={{ __html: htmlString}}></div>
             </main>
+            <Footer />
             <style global jsx>{`
-                @import url('https://fonts.googleapis.com/css2?family=Khula:wght@600;700;800&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
-                
-                h1:first-child {
-                    margin-top: 10%;
-                    font-size: 4rem;
+                .container {
+                    padding: 0 25%;
+                }
+
+                .coverImg {
+                    margin: 0 auto;
+                    margin-top: 2%;
+                    width: 50%;
+                    display: block;
+                    border: 1px solid black;
+                    border-bottom: 5px solid red;
+                }
+
+                h1 {
+                    font-size: 3rem;
                     font-weight: 800;
+                    text-align: center;
                 }
 
                 h2 {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                 }
 
                 h3 {
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
 
                 h1, h2, h3, h4 {
@@ -43,16 +56,13 @@ const Post = ({htmlString, data}) => {
 
                 p {
                     font-size: 20px;
-                    line-height: 1.5;
-                    letter-spacing: 1px;
+                    line-height: 1.7;
                     color: #333;
                     margin-bottom: 2%;
+                    text-align: justify;
                 }
 
-                .container {
-                    margin-left: 25%;
-                    padding-right: 15%;
-                }
+                
             `}</style>
         </>
     )

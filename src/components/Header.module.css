@@ -1,0 +1,17 @@
+.logo {
+    width: 150px;
+    margin: 10px auto;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hr {
+    width: 50%;
+    height: 2px;
+    /* color: #5068b0;
+    background-color: #5068b0; */
+    background-color: black;
+    
+}

@@ -1,6 +1,6 @@
 import Link from 'next/link'
-
-import styles from '../../styles/Home.module.css'
+import { FaBook } from 'react-icons/fa'
+import styles from '../styles/Home.module.css'
 
 export default function HomeArticleCard(props) {
     return (
@@ -12,9 +12,11 @@ export default function HomeArticleCard(props) {
                 </div>
                 <div className={styles.textContent}>
                     <h3> {props.title} &rarr;</h3>
-                    <p>{props.description}</p>
+                    <p className={styles.description}>
+                        <FaBook /> <strong> {(parseInt(props.wc) / 200).toPrecision(3)} minute read </strong>
+                    </p>
+                    <p className={styles.description}>{props.description}</p>
                 </div>
-                
             </a> 
             </Link>
         </>

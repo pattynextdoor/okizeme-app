@@ -4,7 +4,8 @@ import styles from '../styles/Home.module.css'
 
 import fs from 'fs'
 
-import HomeArticleCard from '../components/molecules/HomeArticleCard'
+import HomeArticleCard from '../components/HomeArticleCard'
+import Footer from '../components/Footer'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 
 export default function Home({slugs}) {
@@ -24,15 +25,9 @@ export default function Home({slugs}) {
 
         <div className={styles.hero}>
           <div className={styles.heroContent}>
-            {/* <h1 className={styles.title}>
-              OKIZEME
-            </h1>
-
-            <p className={styles.description}>
-              HIGH LEVEL CONTENT 
-            </p> */}
-
-            <img className={styles.heroImg} src="/logo.png" alt=""/>
+            <Link href="/">
+              <img className={styles.heroImg} src="/logo.png" alt="Okizeme Logo"/>
+            </Link>
           </div>
         </div>
 
@@ -64,27 +59,30 @@ export default function Home({slugs}) {
               <h2 className={styles.subheading}>FEATURED ARTICLES</h2>
             </div>
             <div className={styles.contentGrid}>
+              <HomeArticleCard title="Fighting Games Debunked: Myth 2"
+                      description="How many hours do I spend in training mode before I can play?"
+                      imgSrc="https://i.ibb.co/hDg1TpY/Fighting-Games-Debunked-Myth-2.png"
+                      src="debunked-myth-2"
+                      wc="865"></HomeArticleCard>
+
+              <HomeArticleCard title="Fighting Games Debunked: Myth 1"
+                      description="Do fighting games have an entry barrier too high for beginners?"
+                      imgSrc="https://i.ibb.co/bJd9jxd/Fighting-Games-Debunked.png"
+                      src="debunked-myth-1"
+                      wc="1650"></HomeArticleCard> 
+
               <HomeArticleCard title="The Complete FGC Dictionary"
                       description="Your one-stop-shop for all things FGC"
-                      imgSrc="https://blueprint-api-production.s3.amazonaws.com/uploads/story/thumbnail/11031/ShibaInuhelmet.png"
-                      src="complete-fgc-dictionary"></HomeArticleCard>
+                      imgSrc="https://i.ibb.co/JFtHmxh/Ultimate-FGC-Dictionary.png"
+                      src="complete-fgc-dictionary"
+                      wc="30329"></HomeArticleCard>
 
-              <HomeArticleCard title="Understanding the frame data of Greninja dragdowns"
-                      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                      imgSrc="https://blueprint-api-production.s3.amazonaws.com/uploads/story/thumbnail/11031/ShibaInuhelmet.png"
-                      src="#"></HomeArticleCard>
-
-              <HomeArticleCard title="Take a break! 3 reasons why stepping away from the game can improve performance"
-                      description="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                      imgSrc="https://blueprint-api-production.s3.amazonaws.com/uploads/story/thumbnail/11031/ShibaInuhelmet.png"
-                      src="#"></HomeArticleCard>
             </div>
           </div>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-      </footer>
+      <Footer />
     </div>
   )
 }

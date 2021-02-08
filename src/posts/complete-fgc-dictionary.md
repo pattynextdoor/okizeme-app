@@ -1,6 +1,7 @@
 ---
 title: The Complete FGC Dictionary
 description: FGC for dummies, a reference for the rest of us
+cover: https://i.ibb.co/JFtHmxh/Ultimate-FGC-Dictionary.png
 ---
 
 # The Complete FGC Dictionary
