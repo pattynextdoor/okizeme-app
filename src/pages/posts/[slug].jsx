@@ -5,8 +5,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import mdit from 'markdown-it'
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 const Post = ({htmlString, data}) => {
     return (
