@@ -51,6 +51,7 @@ const Post = ({htmlString, data}) => {
 
                 h2 {
                     font-size: 2rem;
+                    font-weight: 600;
                 }
 
                 h3 {
@@ -67,6 +68,35 @@ const Post = ({htmlString, data}) => {
                     color: #333;
                     margin-bottom: 2%;
                     text-align: justify;
+                }
+
+                @media (max-width: 768px) {
+                    .container {
+                        padding: 0 5%;
+                    }
+
+                    .coverImg {
+                        width: 100%;
+                    }
+
+                    h1 {
+                       font-size: 2rem; 
+                    }
+
+                    h2 {
+                        font-size: 1.5rem;
+                        margin-top: 15%;
+                    }
+
+                    h3 {
+                        font-size: 1rem;
+                    }
+
+                    p {
+                        text-align: left;
+                        font-size: 18px;
+                        margin-bottom: 5%;
+                    }
                 }
 
                 
