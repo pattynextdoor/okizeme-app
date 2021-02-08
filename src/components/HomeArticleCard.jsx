@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { FaBook } from 'react-icons/fa'
 import styles from '../styles/Home.module.css'
@@ -8,7 +9,9 @@ export default function HomeArticleCard(props) {
             <Link href="/posts/[slug]" as={`/posts/${props.src}`}>
             <a className={styles.card}>
                 <div className={styles.cardImgWrapper}>
-                    <img src={props.imgSrc}/>
+                    <Image src={props.imgSrc} 
+                           width={600}
+                           height={340}/>
                 </div>
                 <div className={styles.textContent}>
                     <h3> {props.title} &rarr;</h3>
