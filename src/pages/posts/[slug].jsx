@@ -42,6 +42,10 @@ const Post = ({htmlString, data}) => {
                     border: 1px solid black;
                     border-bottom: 5px solid red;
                 }
+                
+                h1, h2, h3, h4 {
+                   margin: 2% auto;
+                }
 
                 h1 {
                     font-size: 3rem;
@@ -52,21 +56,18 @@ const Post = ({htmlString, data}) => {
                 h2 {
                     font-size: 2rem;
                     font-weight: 600;
+                    margin-top: 7.5%;
                 }
 
                 h3 {
                     font-size: 1.5rem;
                 }
 
-                h1, h2, h3, h4 {
-                   margin: 2% auto;
-                }
-
                 p {
                     font-size: 20px;
                     line-height: 1.7;
                     color: #333;
-                    margin-bottom: 2%;
+                    margin-bottom: 3.5%;
                     text-align: justify;
                 }
 
