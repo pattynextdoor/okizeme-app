@@ -15,10 +15,10 @@ export default function HomeArticleCard(props) {
                 </div>
                 <div className={styles.textContent}>
                     <h3> {props.title} &rarr;</h3>
+                    <p className={styles.subtitle}>{props.description}</p>
                     <p className={styles.description}>
-                        <FaBook /> <strong> {(parseInt(props.wc) / 200).toPrecision(3)} minute read </strong>
+                        <FaBook /> {(parseInt(props.wc) / 200).toPrecision(3)} minute read 
                     </p>
-                    <p className={styles.description}>{props.description}</p>
                 </div>
             </a> 
             </Link>

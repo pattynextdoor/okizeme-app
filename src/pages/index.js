@@ -36,12 +36,12 @@ export default function Home({slugs}) {
           
           <p className={styles.justified}>
             Okizeme, a japanese portmanteau of the words: <strong>Okiru 起きる (Wake Up)</strong> and <strong>Semeru 攻める (Attack / Strike)</strong>. 
-            The term was popularized by the Fighting Game Community as an opportunity to strike the opponent during a favorable situation of knocking them into the ground. By doing so, you continue your momentum closer and closer to being the winner. Okizeme Gaming was created by this idea that as gamers; we wake up, we attack, and we game. 
+            The term was popularized by the Fighting Game Community as an opportunity to strike the opponent as they are "waking up" from being knocked down to maintain advantage. Okizeme Gaming was created by this idea that as gamers; we wake up, we attack, and we game.
           </p>
 
           <p className={styles.justified}>
             We want to provide the Fighting Game Community with high-level content from gaming resources, media content essays, interviews, Esports, and so much more from your favorite fighting game.
-            Not only that, Okizeme wishes to deconstruct entry barriers for individuals who have often felt disenfranchised from the video game community, a cismale dominated space, and create a safe and welcoming environment for <strong>all</strong>. We aim to open discussion and encourage new players to find their way into the FGC. 
+            Not only that, Okizeme wishes to deconstruct entry barriers for individuals who have often felt disenfranchised from the video game community and create a safe and welcoming environment for <strong>all</strong>. We aim to open discussion and encourage new players to find their way into the FGC. 
           </p>
 
           <p className={styles.rightAligned}>
