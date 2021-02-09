@@ -6,8 +6,6 @@ cover: https://i.ibb.co/bJd9jxd/Fighting-Games-Debunked.png
 
 # Fighting Games Debunked: Myth 1
 
-*Welcome to Okizeme Gaming’s Fighting Games Debunked. This series is dedicated to improving the retention of fighting game players.*
-
 Welcome to Okizeme Gaming’s first entry in our newest essay series: Fighting Games Debunked. This series is dedicated to improving the retention of fighting game players, especially with newer players who have never played a fighting game in their life. We also encourage our veteran community to participate in the discussion and help encourage growth in the FGC by changing old, preconditioned mindsets. We aim to debunk myths, fallacies, and misconceptions that are involved with learning the art of fighting games. This entry will be taking a look at one crucial factor for any fighting game player looking to become a part of the FGC: playing a new game.
 
 There are hundreds of fighting game titles released since the early generations of video games that span over several typographies like tag fighters, arena, 2D, 3D, weapons, platform fighters, etc. The list can seem virtually endless, and you may feel that you must meet certain criteria to be able to be **“good”** at a fighting game. You may also feel that you need a certain skill level and knowledge set before even getting into a fighting game. Maybe you weren’t able to get into a game during its peak popularity because of money issues or you were too slow to join the hype train. You might be abhorrent to the idea of being in a training mode for hours on end, just to lose online due to Skill Based Matchmaking. In summary, you might feel there is a tall wall gatekeeping you from wanting to learn a new game, so let’s debunk some of these myths.
