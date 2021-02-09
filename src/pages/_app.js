@@ -1,10 +1,11 @@
+import Router from 'next/router'
+import withGA from 'next-ga'
+
 import '../styles/globals.scss'
 import '../styles/app.scss'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default withGA("G-E4XBY7D9Z8", Router)(MyApp)
