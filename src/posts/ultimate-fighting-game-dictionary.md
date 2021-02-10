@@ -1,10 +1,10 @@
 ---
-title: The Complete FGC Dictionary
+title: The Ultimate Fighting Game Dictionary
 description: FGC for dummies, a reference for the rest of us
 cover: https://i.ibb.co/JFtHmxh/Ultimate-FGC-Dictionary.png
 ---
 
-# The Complete FGC Dictionary
+# The Ultimate Fighting Game Dictionary
 
 ## VS Fighter Terms
 

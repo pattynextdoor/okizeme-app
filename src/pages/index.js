@@ -71,10 +71,10 @@ export default function Home({slugs}) {
                       src="debunked-myth-1"
                       wc="1650"></HomeArticleCard> 
 
-              <HomeArticleCard title="The Complete FGC Dictionary"
-                      description="Your one-stop-shop for all things FGC"
+              <HomeArticleCard title="The Ultimate Fighting Game Dictionary"
+                      description="Bookmark this page to always have this handy, and you can search any term by pressing CTRL+F and typing in the word you're looking for!"
                       imgSrc="https://i.ibb.co/JFtHmxh/Ultimate-FGC-Dictionary.png"
-                      src="complete-fgc-dictionary"
+                      src="ultimate-fighting-game-dictionary"
                       wc="30329"></HomeArticleCard>
 
             </div>

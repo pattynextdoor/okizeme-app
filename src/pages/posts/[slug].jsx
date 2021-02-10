@@ -48,6 +48,7 @@ const Post = ({htmlString, data}) => {
                 }
 
                 h1 {
+                    margin-top: 5%;
                     font-size: 3rem;
                     font-weight: 800;
                     text-align: center;
@@ -68,7 +69,12 @@ const Post = ({htmlString, data}) => {
                     line-height: 1.7;
                     color: #333;
                     margin-bottom: 3.5%;
-                    text-align: justify;
+                    text-align: left;
+                }
+                
+                p > img {
+                    display: block;
+                    margin: auto;
                 }
 
                 @media (max-width: 768px) {
