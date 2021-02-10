@@ -104,6 +104,10 @@ const Post = ({htmlString, data}) => {
                         font-size: 18px;
                         margin-bottom: 5%;
                     }
+
+                    p > img {
+                        max-width: 300px;
+                    }
                 }
 
                 
