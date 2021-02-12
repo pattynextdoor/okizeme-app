@@ -17,11 +17,15 @@ export default function HomeArticleCard(props) {
                     <h3> {props.title} &rarr;</h3>
                     <p className={styles.subtitle}>{props.description}</p>
                     <p className={styles.description}>
-                        <FaBook /> {(parseInt(props.wc) / 200).toPrecision(3)} minute read 
+                        <FaBook /> {convertWordsToMinutes(props.wc)} minute read 
                     </p>
                 </div>
             </a> 
             </Link>
         </>
     )
+}
+
+const convertWordsToMinutes = (wordCount) => {
+    return (parseInt(wordCount) / 200).toPrecision(3)
 }
