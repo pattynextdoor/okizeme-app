@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React from 'react'
+import React, { useEffect } from 'react'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -9,6 +9,11 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
 const Post = ({htmlString, data}) => {
+    useEffect(() => {
+        let anchorTags = document.querySelectorAll('a')
+        addTargetToLinks(anchorTags)
+    })
+
     return (
         <>
             <Head>
@@ -148,6 +153,13 @@ export const getStaticProps = async({params: {slug}}) => {
             htmlString,
             data: parsedMarkdown.data
         }
+    }
+}
+
+const addTargetToLinks = (tags) => {
+    for (let i = 0; i < tags.length; i++) {
+        console.log(tags[i])
+        tags[i].setAttribute("target", "_blank")
     }
 }
 
