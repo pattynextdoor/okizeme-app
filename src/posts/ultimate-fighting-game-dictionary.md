@@ -2,6 +2,7 @@
 title: The Ultimate Fighting Game Dictionary
 description: FGC for dummies, a reference for the rest of us
 cover: https://i.ibb.co/JFtHmxh/Ultimate-FGC-Dictionary.png
+slug: ultimate-fighting-game-dictionary
 ---
 
 # The Ultimate Fighting Game Dictionary

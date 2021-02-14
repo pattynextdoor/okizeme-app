@@ -4,15 +4,19 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import mdit from 'markdown-it'
+import absoluteUrl from 'next-absolute-url'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import SocialSharing from '../../components/SocialSharing'
 
 const Post = ({htmlString, data}) => {
     useEffect(() => {
         let anchorTags = document.querySelectorAll('a')
         addTargetToLinks(anchorTags)
     })
+
+    const articleUrl = getArticleUrl(data.slug)
 
     return (
         <>
@@ -29,6 +33,7 @@ const Post = ({htmlString, data}) => {
 
             <Header/>
             <main>
+                <SocialSharing articleLink={articleUrl} />
                 <img className="coverImg" src={data.cover} alt={data.title} />
                 <div className="container"
                      dangerouslySetInnerHTML={{ __html: htmlString}}></div>
@@ -161,6 +166,10 @@ const addTargetToLinks = (tags) => {
         console.log(tags[i])
         tags[i].setAttribute("target", "_blank")
     }
+}
+
+const getArticleUrl = (slug) => {
+    return "https://okizeme.com/posts/" + slug
 }
 
 export default Post;

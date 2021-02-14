@@ -2,6 +2,7 @@
 title: "Fighting Games Debunked: Myth 1"
 description: Welcome to Okizeme Gaming’s Fighting Games Debunked. This series is dedicated to improving the retention of fighting game players.
 cover: https://i.ibb.co/bJd9jxd/Fighting-Games-Debunked.png
+slug: debunked-myth-1
 ---
 
 # Fighting Games Debunked: Myth 1

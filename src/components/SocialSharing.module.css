@@ -1,0 +1,48 @@
+.socialSharing {
+   position: absolute; 
+   left: 10%;
+   top: 80vh;
+}
+
+h5.socialHeading {
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 7.5%;
+}
+
+.shareButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.shareButtons > a {
+    margin: 5% 0;
+}
+
+.shareButtons > a:hover {
+    cursor: pointer
+}
+
+.shareText {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: black;
+}
+
+.icon {
+    font-size: 1.25em;
+    color: black;
+
+    margin-top: 2%;
+}
+
+.linkCopiedText {
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .socialSharing {
+        display: none;
+    }
+}
