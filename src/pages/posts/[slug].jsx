@@ -1,5 +1,6 @@
-import Head from 'next/head'
 import React, { useEffect } from 'react'
+import Head from 'next/head'
+import Image from 'next/image'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -34,7 +35,13 @@ const Post = ({htmlString, data}) => {
             <Header/>
             <main>
                 <SocialSharing articleLink={articleUrl} />
-                <img className="coverImg" src={data.cover} alt={data.title} />
+                <div className="coverImg">
+                    <Image src={data.cover}
+                       alt={data.title}
+                       width={949.5}
+                       height={534.1}/>
+                </div>
+                
                 <div className="container"
                      dangerouslySetInnerHTML={{ __html: htmlString}}></div>
             </main>
@@ -47,7 +54,7 @@ const Post = ({htmlString, data}) => {
                 .coverImg {
                     margin: 0 auto;
                     margin-top: 2%;
-                    width: 50%;
+                    max-width: 50%;
                     display: block;
                     border: 1px solid black;
                     border-bottom: 5px solid red;

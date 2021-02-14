@@ -4,7 +4,6 @@ import { FaTwitter, FaFacebookF, FaLink} from 'react-icons/fa'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 import styles from './SocialSharing.module.css'
-import StateBlock from 'markdown-it/lib/rules_block/state_block'
 
 export default function SocialSharing(props) {
     const [isCopied, setIsCopied] = useState(false)
