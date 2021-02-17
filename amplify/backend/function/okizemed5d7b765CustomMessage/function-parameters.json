@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "okizemed5d7b765",
+  "functionName": "okizemed5d7b765CustomMessage",
+  "resourceName": "okizemed5d7b765CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\Users\\Patrick\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "okizemed5d7b765CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://okizeme.com",
+  "EMAILSUBJECT": "Email confirmation - Okizeme",
+  "EMAILMESSAGE": "Thanks for joining our community! It's dangerous to go alone. Take this:",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

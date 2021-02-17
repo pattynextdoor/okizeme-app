@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-okizeme-dev-231016-authRole",
+      "UnauthRoleArn": "arn:aws:iam::453440541820:role/amplify-okizeme-dev-231016-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::453440541820:role/amplify-okizeme-dev-231016-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-okizeme-dev-231016-deployment",
+      "UnauthRoleName": "amplify-okizeme-dev-231016-unauthRole",
+      "StackName": "amplify-okizeme-dev-231016",
+      "StackId": "arn:aws:cloudformation:us-west-2:453440541820:stack/amplify-okizeme-dev-231016/320f72e0-70ef-11eb-8a13-0a81c3c34edb",
+      "AmplifyAppId": "dfyj77nwz1tui"
+    },
+    "categories": {
+      "function": {
+        "okizemed5d7b765CustomMessage": {
+          "REDIRECTURL": "https://okizeme.com",
+          "EMAILSUBJECT": "Email confirmation - Okizeme",
+          "EMAILMESSAGE": "Thanks for joining our community! It's dangerous to go alone. Take this:",
+          "deploymentBucketName": "amplify-okizeme-dev-231016-deployment",
+          "s3Key": "amplify-builds/okizemed5d7b765CustomMessage-687255513872682f3644-build.zip"
+        }
+      },
+      "auth": {
+        "okizemed5d7b765": {}
+      }
+    }
+  }
+}
