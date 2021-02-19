@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaBook } from 'react-icons/fa'
-import styles from '../styles/Home.module.css'
+import { Tag } from 'carbon-components-react'
+import styles from './HomeArticleCard.module.css'
 
 export default function HomeArticleCard(props) {
     return (
@@ -17,8 +18,9 @@ export default function HomeArticleCard(props) {
                     <h3> {props.title} &rarr;</h3>
                     <p className={styles.subtitle}>{props.description}</p>
                     <p className={styles.description}>
-                        <FaBook /> {convertWordsToMinutes(props.wc)} minute read 
+                         
                     </p>
+                    <Tag className={styles.tag} type="cyan"> {convertWordsToMinutes(props.wc)} minute read</Tag>
                 </div>
             </a> 
             </Link>
