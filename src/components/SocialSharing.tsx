@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 import { FaTwitter, FaFacebookF, FaLink} from 'react-icons/fa'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
