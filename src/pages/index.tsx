@@ -8,11 +8,11 @@ import HomeArticleCard from '../components/HomeArticleCard'
 import Footer from '../components/Footer'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 
-export default function Home({slugs}) {
+type Props = {
+  slugs: string[]
+}
 
-  const featuredArticles = [
-    
-  ]
+export default function Home({slugs}: Props) {
 
   return (
     <div className={styles.container}>
@@ -63,19 +63,19 @@ export default function Home({slugs}) {
                       description="How many hours do I spend in training mode before I can play?"
                       imgSrc="https://i.ibb.co/hDg1TpY/Fighting-Games-Debunked-Myth-2.png"
                       src="debunked-myth-2"
-                      wc="865"></HomeArticleCard>
+                      wc={865}></HomeArticleCard>
 
               <HomeArticleCard title="Fighting Games Debunked: Myth 1"
                       description="Do fighting games have an entry barrier too high for beginners?"
                       imgSrc="https://i.ibb.co/bJd9jxd/Fighting-Games-Debunked.png"
                       src="debunked-myth-1"
-                      wc="1650"></HomeArticleCard> 
+                      wc={1650}></HomeArticleCard> 
 
               <HomeArticleCard title="The Ultimate Fighting Game Dictionary"
                       description="Bookmark this page to always have this handy, and you can search any term by pressing CTRL+F and typing in the word you're looking for!"
                       imgSrc="https://i.ibb.co/JFtHmxh/Ultimate-FGC-Dictionary.png"
                       src="ultimate-fighting-game-dictionary"
-                      wc="30329"></HomeArticleCard>
+                      wc={30329}></HomeArticleCard>
 
             </div>
           </div>

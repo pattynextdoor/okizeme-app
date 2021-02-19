@@ -4,11 +4,12 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import mdit from 'markdown-it'
-import absoluteUrl from 'next-absolute-url'
 
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import SocialSharing from '../../components/SocialSharing'
+
+import { GetStaticPaths, GetStaticProps} from 'next'
 
 const Post = ({htmlString, data}) => {
     useEffect(() => {
@@ -126,7 +127,7 @@ const Post = ({htmlString, data}) => {
     )
 }
 
-export const getStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async () => {
     const files = fs.readdirSync('src/posts')
     console.log('files: ', files)
     const paths = files.map(filename => ({
@@ -142,7 +143,7 @@ export const getStaticPaths = async () => {
     }
 }
 
-export const getStaticProps = async({params: {slug}}) => {
+export const getStaticProps: GetStaticProps = async({params: {slug}}) => {
     const md = new mdit({
         html: true,
         breaks: true,

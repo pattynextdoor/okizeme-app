@@ -1,7 +1,7 @@
 import { FaCopyright } from 'react-icons/fa'
 import styles from './Footer.module.css'
 
-export default function Footer(props) {
+export default function Footer() {
     return (
         <div className={styles.footer}>
             <i className={styles.message}>Made with (✿◡‿◡)</i>

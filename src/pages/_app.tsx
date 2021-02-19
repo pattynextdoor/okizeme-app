@@ -5,7 +5,9 @@ import * as gtag from '../lib/gtag'
 import '../styles/globals.scss'
 import '../styles/app.scss'
 
-const App = ({ Component, pageProps }) => {
+import { AppProps } from 'next/app'
+
+const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter()
   useEffect(() => {
     const handleRouteChange = (url) => {
