@@ -1,8 +1,9 @@
+import React from 'react'
 import Link from 'next/link'
 
 import styles from './Header.module.css'
 
-export default function Header(props) {
+export default function Header() {
     return (
         <>
             <Link href="/">

@@ -1,3 +1,4 @@
+import React from 'react'
 import { FaCopyright } from 'react-icons/fa'
 import styles from './Footer.module.css'
 
