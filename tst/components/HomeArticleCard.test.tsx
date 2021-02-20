@@ -4,15 +4,25 @@ import HomeArticleCard from '../../src/components/HomeArticleCard'
 
 let wrapper: ShallowWrapper
 
-const shibaImg = "https://i.pinimg.com/originals/c3/35/c5/c335c53b8b2ad7dded3add1f4c0c1e0d.jpg"
+const testProps = {
+    title: "testTitle",
+    description: "testDescription",
+    imgSrc: "testImage",
+    src: "testSrc",
+    wc: 420
+}
 
-describe('Footer', () => {
+describe('HomeArticleCard', () => {
     it('should render without throwing an error', () => {
-        wrapper = shallow(<HomeArticleCard title="testTitle"
-                                           description="testDescription"
-                                           imgSrc={shibaImg}
-                                           src="testSrc"
-                                           wc={420}/>)
+        wrapper = shallow(<HomeArticleCard {...testProps}/>)
         expect(wrapper).not.toBeNull()
+    })
+
+    it('should convert word count to minutes correctly', () => {
+        const expectedMinutes = 2
+
+        wrapper = shallow(<HomeArticleCard {...testProps} />)
+        const tag = wrapper.find("Tag").render()
+        expect(tag.text()).toBe(`${expectedMinutes} minute read`)
     })
 })

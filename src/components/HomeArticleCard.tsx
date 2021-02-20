@@ -29,7 +29,7 @@ export default function HomeArticleCard({ title, description, imgSrc, src, wc }:
                     <p className={styles.description}>
                          
                     </p>
-                    <Tag className={styles.tag} type="cyan"> {convertWordsToMinutes(wc)} minute read</Tag>
+                    <Tag className={styles.tag} type="cyan">{convertWordsToMinutes(wc)} minute read</Tag>
                 </div>
             </a> 
             </Link>

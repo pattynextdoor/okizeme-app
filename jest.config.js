@@ -41,5 +41,6 @@ module.exports = {
       "ts-jest": {
           tsconfig: "<rootDir>/jest.tsconfig.json"
       }
-  }
+  },
+  verbose: true
 }
