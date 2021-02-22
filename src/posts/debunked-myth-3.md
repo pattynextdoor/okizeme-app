@@ -65,7 +65,7 @@ If you have social anxiety and it's difficult for you to speak up that's okay. H
 
 2. Does your character have a  QCB+ATK / 214 + ATK / Quarter - Circle Back + ATK? What does it do?
 
-   ![Ryu Tatsumaki Senpukyaku](http://pa1.narvii.com/7209/eaa9bf9404f0440772a317f66c8a40cb193229bar1-282-250_00.gif)
+   ![Ryu Tatsumaki Senpukyaku](https://pa1.narvii.com/7209/eaa9bf9404f0440772a317f66c8a40cb193229bar1-282-250_00.gif)
 
 3. What is your character's super move input? Depending on the game it may be unique inputs or shared inputs with the entire roster. For example, ARCSYS games have the same universal inputs for super moves. 
 
