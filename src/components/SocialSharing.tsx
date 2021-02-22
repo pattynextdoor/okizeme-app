@@ -41,7 +41,7 @@ export default function SocialSharing({ articleLink }: Props) {
     )
 }
 
-const generateSharingLinks = (articleLink) => {
+const generateSharingLinks = (articleLink: string) => {
     const urlEncoded = encodeURI(articleLink)
 
     const fbLink = "https://www.facebook.com/sharer/sharer.php?u=" + urlEncoded

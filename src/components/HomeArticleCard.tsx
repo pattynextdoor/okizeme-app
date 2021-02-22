@@ -37,6 +37,6 @@ export default function HomeArticleCard({ title, description, imgSrc, src, wc }:
     )
 }
 
-const convertWordsToMinutes = (wordCount) => {
+const convertWordsToMinutes = (wordCount: number) => {
     return Math.trunc(wordCount / 200)
 }

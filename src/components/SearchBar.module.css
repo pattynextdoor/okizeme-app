@@ -1,0 +1,22 @@
+.searchBar {
+    margin: 1% auto;
+}
+
+.searchBar > div {
+    /* lmao why is the FuzzySearch component built like dat*/
+    box-shadow: none !important;
+}
+
+.searchBar > div > input {
+    border: 1px solid #ccc !important;
+}
+
+.searchBar > div > div > span {
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .searchBar {
+        width: 100% !important;
+    }
+}

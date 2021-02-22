@@ -162,9 +162,8 @@ export const getStaticProps: GetStaticProps = async({params: {slug}}) => {
     }
 }
 
-const addTargetToLinks = (tags) => {
+const addTargetToLinks = (tags: HTMLAnchorElement[]) => {
     for (let i = 0; i < tags.length; i++) {
-        console.log(tags[i])
         tags[i].setAttribute("target", "_blank")
     }
 }

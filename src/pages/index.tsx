@@ -7,11 +7,14 @@ import fs from 'fs'
 
 import HomeArticleCard from '../components/HomeArticleCard'
 import Footer from '../components/Footer'
+import articleData from '../data/articles.json'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 
 type Props = {
   slugs: string[]
 }
+
+const articles = articleData.articles
 
 export default function Home({slugs}: Props) {
 
@@ -60,24 +63,7 @@ export default function Home({slugs}: Props) {
               <h2 className={styles.subheading}>FEATURED ARTICLES</h2>
             </div>
             <div className={styles.contentGrid}>
-              <HomeArticleCard title="Fighting Games Debunked: Myth 2"
-                      description="How many hours do I spend in training mode before I can play?"
-                      imgSrc="https://i.ibb.co/hDg1TpY/Fighting-Games-Debunked-Myth-2.png"
-                      src="debunked-myth-2"
-                      wc={865}></HomeArticleCard>
-
-              <HomeArticleCard title="Fighting Games Debunked: Myth 1"
-                      description="Do fighting games have an entry barrier too high for beginners?"
-                      imgSrc="https://i.ibb.co/bJd9jxd/Fighting-Games-Debunked.png"
-                      src="debunked-myth-1"
-                      wc={1650}></HomeArticleCard> 
-
-              <HomeArticleCard title="The Ultimate Fighting Game Dictionary"
-                      description="Bookmark this page to always have this handy, and you can search any term by pressing CTRL+F and typing in the word you're looking for!"
-                      imgSrc="https://i.ibb.co/JFtHmxh/Ultimate-FGC-Dictionary.png"
-                      src="ultimate-fighting-game-dictionary"
-                      wc={30329}></HomeArticleCard>
-
+              {articles.map((articleProps, index) => <HomeArticleCard {...articleProps} key={index}/>)}
             </div>
           </div>
         </div>
