@@ -8,9 +8,9 @@ slug: debunked-myth-3
 # Fighting Games Debunked: Myth 3
 ## What character should you play?
 
-*Disclaimer: Unfamiliar with any term? Check out our complete dictionary on fighting game terms [here](https://okizeme.com/posts/complete-fgc-dictionary).*
+*Disclaimer: Unfamiliar with any term? Check out our complete dictionary on fighting game terms [here](https://okizeme.com/posts/ultimate-fighting-game-dictionary).*
 
-Welcome back to this week's installment of our weekly series: <u>Fighting Games Debunked</u>! (if you missed any of our previous entries feel free to check them out [here](https://www.okizeme.com/posts/debunked-1)) In this series, we aim to deconstruct entry barriers for new players and improve the mindset of our veteran barriers by debunking myths and fallacies that tend to stonewall players from improving or joining the FGC. Today, we are going to be talking about one of the toughest issues both new and veteran players experience when playing a fighting game: picking a new character, testing the waters with new characters, and playing the character.
+Welcome back to this week's installment of our weekly series: <u>Fighting Games Debunked</u>! (if you missed any of our previous entries feel free to check them out [here](https://www.okizeme.com/posts/debunked-myth-1)) In this series, we aim to deconstruct entry barriers for new players and improve the mindset of our veteran barriers by debunking myths and fallacies that tend to stonewall players from improving or joining the FGC. Today, we are going to be talking about one of the toughest issues both new and veteran players experience when playing a fighting game: picking a new character, testing the waters with new characters, and playing the character.
 
 ## Picking a new character
 
