@@ -25,7 +25,7 @@ Here are the 3 categories the Okizeme team will be using to rate fighting games-
 
 Guilty Gear -Strive- is a phenomenal game to look at. The visual aesthetic of the movement of characters and the background animations and designs are reminiscent of Marvel vs Capcom 2, King of Fighters '02/95/XIV. It adds a great sense of nostalgia just from the first 3 seconds of entering a match and seeing how the background enhances the characters on screen. All of the stage selections feel very diverse and have different elements that will feel pleasing to many players. 
 
-![KOF 95 Stage](http://www.fightersgeneration.com/nz3/game/kof95-stage-usa.gif)
+![KOF 95 Stage](https://www.fightersgeneration.com/nz3/game/kof95-stage-usa.gif)
 
 The character animations have well exceeded our expectations at Okizeme. With our experience in traditional fighters, we tend to be skewed that all 1-on-1 anime fighters tend to fall into the same animation style that Arcsys (Arc System Works) is known for. We were absolutely wrong. Strive has taken the strengths of previous Arcsys games and have improved them phenomenally into one perfect blend. The hit confirms feel impactful and every rendered particle adds to the effect that every hit matters in Guilty Gear -Strive-. The sound team has done a very good job accompanying SFX into the animations that make every hit feel like a full screen 2H. Some traditional anime fighters tend to have a hard time making the hits feel impactful, as if there was a sense of weight behind the characters. GG -Strive- has finally hit that mark. A punch to the face at the end of the day should feel like a punch to the face.
 
