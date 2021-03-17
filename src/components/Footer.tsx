@@ -5,6 +5,20 @@ import styles from './Footer.module.css'
 export default function Footer() {
     return (
         <div className={styles.footer}>
+            <div className={styles.leftFloated}>
+                <img className={styles.footerImg}
+                     src="/logo.png" 
+                     alt="Okizeme logo"/>
+                <span className={styles.messages}>
+                    <i className={styles.message}>Made with (✿◡‿◡)</i>
+                    <br/>
+                    <i className={styles.message}>
+                        Copyright <FaCopyright /> 2021 Okizeme Gaming. All Rights Reserved
+                    </i>
+                </span>
+                
+            </div>
+            
             <ul className={styles.socialMediaLinks}>
                 <li>
                     <a href="https://twitter.com/okizemegaming">
@@ -22,14 +36,6 @@ export default function Footer() {
                     </a>
                 </li>
             </ul>
-            <br/>
-            <br/>
-            <i className={styles.message}>Made with (✿◡‿◡)</i>
-            <br/>
-            <br/>
-            <i className={styles.message}>
-                Copyright <FaCopyright /> 2021 Okizeme Gaming. All Rights Reserved
-            </i>
         </div>
     )
 }
