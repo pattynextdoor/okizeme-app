@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import fs from 'fs'
 
 import HomeArticleCard from '../components/HomeArticleCard'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 import articleData from '../data/articles.json'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
@@ -24,6 +25,8 @@ export default function Home({slugs}: Props) {
         <title>Okizeme | High Level Content</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header />
 
       <main className={styles.main}>
 

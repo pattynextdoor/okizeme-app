@@ -8,7 +8,8 @@
 }
 
 .searchBar > div > input {
-    border: 1px solid #ccc !important;
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
 }
 
 .searchBar > div > div > span {

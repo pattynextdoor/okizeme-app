@@ -1,17 +1,46 @@
-.logo {
-    width: 150px;
-    margin: 10px auto;
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+.header {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    max-height: 115px;
+    margin: 0 auto;
 }
 
-.hr {
-    width: 50%;
-    height: 2px;
-    /* color: #5068b0;
-    background-color: #5068b0; */
-    background-color: black;
-    
+.search {
+    justify-self: start;
+    display: none;
+}
+
+.logoLink {
+    grid-column-start: 2;
+}
+
+.logo {
+    width: 120px;
+    margin: 10px auto;
+    text-align: center;
+    justify-self: right;
+}
+
+.headerRight {
+    margin-left: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    justify-self: end;
+}
+
+.headerRight a {
+    margin: auto 10%;
+    color: #ccc;
+}
+
+.headerRight a:hover {
+    color: #333;
+}
+
+.active {
+    color: #333 !important;
 }

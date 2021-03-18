@@ -14,8 +14,8 @@ export default function SearchBar(props) {
         <>
             <FuzzySearch list={articles}
                          keys={["title", "description"]}
-                         placeholder="Search articles"
-                         width={500}
+                         placeholder="🔍 SEARCH"
+                         width={200}
                          distance={500}
                          maxPatternLength={200}
                          threshold={0.4}
@@ -33,7 +33,7 @@ export default function SearchBar(props) {
                                             <a href={"https://okizeme.com/posts/" + val.src}
                                             target="_none"
                                             style={{
-                                                "color": "#333"
+                                                "color": "#333",
                                             }}>
                                                 <span>{val.title}</span>
                                             </a>
