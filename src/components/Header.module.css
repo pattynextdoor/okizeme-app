@@ -44,3 +44,28 @@
 .active {
     color: #333 !important;
 }
+
+@media (max-width: 768px) {
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        max-height: none;
+        margin-bottom: 10%;
+    }
+
+    .logoLink {
+        grid-column-start: 1;
+        justify-self: center;
+    }
+
+    .headerRight {
+        margin-left: 0;
+        justify-self: center;
+    }
+
+    .headerRight a {
+        margin: 0 10%;
+        margin-left: 0;
+    }
+}
