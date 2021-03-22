@@ -73,6 +73,7 @@ const Post = ({htmlString, data}) => {
 
                 h3 {
                     font-size: 1.5rem;
+                    font-weight: 600;
                 }
 
                 p {
@@ -86,6 +87,17 @@ const Post = ({htmlString, data}) => {
                 p > img {
                     display: block;
                     margin: auto;
+                }
+
+                ul {
+                    margin-bottom: 3.5%;
+                    color: #333;
+                    line-height: 1.7;
+                }
+
+                li {
+                    list-style: inside disc;
+                    font-size: 20px;
                 }
 
                 @media (max-width: 768px) {
@@ -107,7 +119,8 @@ const Post = ({htmlString, data}) => {
                     }
 
                     h3 {
-                        font-size: 1rem;
+                        font-size: 1.25rem;
+                        font-weight: 600;
                     }
 
                     p {
@@ -118,6 +131,10 @@ const Post = ({htmlString, data}) => {
 
                     p > img {
                         max-width: 300px;
+                    }
+
+                    li {
+                        font-size: 18px;
                     }
                 }
 

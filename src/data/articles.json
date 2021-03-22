@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Streamer Spotlight: Queergod",
+            "description": "Okizeme exclusively interviews one of Twitch's fastest growing LGBTQ+ streamer: Queergod, aka Zee.",
+            "imgSrc": "https://i.ibb.co/2jZYJLW/Streamer-Spotlight-queergod-v0-1.png",
+            "src": "streamer-queergod",
+            "wc": 945
+        },
+        {
             "title": "Quarter Circle or Full Circle?: Guilty Gear -Strive- | Okizeme Fighting Game Reviews",
             "description": "Is Guilty Gear -Strive- as good as people think?",
             "imgSrc": "https://i.ibb.co/0n94WKs/QCF-OR-FC-Guilty-Gear-Strive-Beta-Review-v0-1-JE-3-6-2021.png",
