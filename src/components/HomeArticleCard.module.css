@@ -1,84 +1,66 @@
 .card {
-  justify-self: center;
-  margin: 5%;
-  padding-bottom: 1.5rem;
-  max-width: 600px;
-  color: inherit;
-  text-decoration: none;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  color: #222525;
-  border: 1px solid #232946;
-  box-shadow: rgba(85, 118, 209, 0.7) 0px 5px,
-              rgba(85, 118, 209, 0.6) 0px 10px, 
-              rgba(85, 118, 209, 0.5) 0px 15px; 
-}
-              
-.card:hover,
-.card:focus,
-.card:active {
-  color: #232946;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  column-gap: 2.5%;
+  justify-items: center;
+  width: 75%;
 }
 
-.card img:hover {
-  -webkit-filter: brightness(50%);
-  transition: all 0.5s ease;
+.imgWrapper {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  height: 360px;
+  transition-duration: 0.5s;
 }
 
-.card > .textContent {
-  padding: 1.5rem 0.5rem 0 1.5rem;
+.imgWrapper:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.card h3 {
-  margin: 0.5rem 0 1rem 0;
-  margin-bottom: 0;
-  padding-right: 10%;
-  font-size: 1.5em;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-.cardImgWrapper img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.imgWrapper > Image {
   width: 100%;
-  margin: 0 auto;
-  display: block;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.readTime {
+  font-weight: 700;
+  font-size: 16px;
+  color: #555;
+  text-transform: uppercase;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4em;
-  font-weight:600;
-  letter-spacing: 5px;
+.cardInfo > h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #555;
 }
 
 .subtitle {
-  font-size: 1.1em;
-  font-weight: 500;
-  margin-top: 0.25rem;
-  margin-bottom: 1rem;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5%;
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1em;
-  font-weight: 500;
+.readNow {
+  display: inline-block;
+  border: 2px solid #555;
+  color: #555;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding: 2% 10%;
+  transition-duration: 0.5s;
 }
 
-.tag {
-    margin: 0 3%;
-    margin-top: 4%;
+.readNow:hover {
+  background-color: #555;
+  color: #eee;
+}
+
+@media(max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .imgWrapper {
+    height: inherit;
+  }
 }

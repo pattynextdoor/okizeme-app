@@ -85,10 +85,10 @@ export default function Home({slugs}: Props) {
         <div className="homeGrid">
           <div className={styles.content}>
             <div className={styles.latestNews}>
-              <h2 className={styles.subheading}>FEATURED ARTICLES</h2>
+              <h2 className={styles.subheading}>FEATURED</h2>
             </div>
             <div className={styles.contentGrid}>
-              {articles.map((articleProps, index) => <HomeArticleCard {...articleProps} key={index}/>)}
+              <HomeArticleCard {...articles[0]}/>
             </div>
           </div>
         </div>
