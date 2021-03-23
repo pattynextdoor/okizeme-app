@@ -35,8 +35,8 @@ When Zee hit 500 followers, Queergod's partner [@saintnieves](https://www.twitch
 Queergod's channel was also nominated for many awards in 2020!
 
 - **Gamers Got Talent**: Finalist 
-- **Gayming Award Best Community**: Nominated 
-- **LGBTQ+ Community of the Year**: Nominated
+- **Gamehers Award - Best Gaming Community**: Nominated 
+- **Gayming Award - LGBTQ+ Community of the Year**: Nominated
 
 ![Image of 2020 Gayming Awards Nomination](https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/131491057_387100895851012_1922937215571344452_n.jpg?tp=1&_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=104&_nc_ohc=5ZT-uWD4rMUAX9w5YMi&ccb=7-4&oh=5bd0feab4b4e57428070c4333c060865&oe=60812D1D&_nc_sid=4f375e)
 
