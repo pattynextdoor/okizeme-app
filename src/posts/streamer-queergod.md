@@ -42,7 +42,7 @@ Queergod's channel was also nominated for many awards in 2020!
 
 ### What are their biggest strengths as a streamer?
 
-Zee credits her strengths as a streamer to how involved they can be with their viewers and communities. There is always going to be someone who will lend a helping hand or good ear to those who come in!
+Zee credits their strengths as a streamer to how involved they can be with their viewers and communities. There is always going to be someone who will lend a helping hand or good ear to those who come in!
 
 They also feel blessed that they were able to stumble upon people who are more positive than not. 
 
