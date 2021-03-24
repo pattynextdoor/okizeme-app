@@ -18,6 +18,7 @@ export default function SearchBar(props) {
                          width={200}
                          distance={500}
                          maxPatternLength={200}
+                         maxResults={3}
                          threshold={0.4}
                          className={styles.searchBar}
                          onSelect={(newSelectedItem) => {
