@@ -14,8 +14,8 @@ export default function SearchBar(props) {
         <>
             <FuzzySearch list={articles}
                          keys={["title", "description"]}
-                         placeholder="🔍 SEARCH"
-                         width={200}
+                         placeholder="🔍 Search articles"
+                         width={600}
                          distance={500}
                          maxPatternLength={200}
                          maxResults={3}

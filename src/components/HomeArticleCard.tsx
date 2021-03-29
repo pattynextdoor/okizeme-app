@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaRegClock } from 'react-icons/fa'
+import AOS from 'aos'
+import "aos/dist/aos.css"
 import styles from './HomeArticleCard.module.css'
 
 type Props = {
@@ -13,15 +15,25 @@ type Props = {
 }
 
 export default function HomeArticleCard({ title, description, imgSrc, src, wc }: Props) {
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
     return (
         <div className={styles.card}>
-            <div className={styles.imgWrapper}>
+            <div className={styles.imgWrapper}
+                 data-aos="fade-up"
+                 data-aos-duration="300">
                 <Image src={imgSrc}
                     width={640}
-                    height={360}/>
+                    height={360}
+                    className={styles.cardImg}
+                     />
             </div>
 
-            <div className={styles.cardInfo}>
+            <div className={styles.cardInfo}
+                 data-aos="zoom-in-left"
+                 data-aos-duration="300">
                 <p className={styles.readTime}>{convertWordsToMinutes(wc)} minute read <FaRegClock /></p>
 
                 <h3> {title} &rarr;</h3>
