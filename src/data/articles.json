@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Fighting Games Debunked: Banning Characters",
+            "description": "Should characters be banned in tournament/competitive play?",
+            "imgSrc": "https://i.ibb.co/fHhg8Ts/OKIZEME-ARTICLE-PHOTO-1.png",
+            "src": "debunked-myth-4",
+            "wc": 1153
+        },
+        {
             "title": "Streamer Spotlight: Queergod",
             "description": "Okizeme exclusively interviews one of Twitch's fastest growing LGBTQ+ streamer: Queergod, aka Zee.",
             "imgSrc": "https://i.ibb.co/2jZYJLW/Streamer-Spotlight-queergod-v0-1.png",

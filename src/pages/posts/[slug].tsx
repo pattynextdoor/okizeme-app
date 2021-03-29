@@ -100,6 +100,15 @@ const Post = ({htmlString, data}) => {
                     font-size: 20px;
                 }
 
+                iframe {
+                    display: block;
+                    margin: 5% auto;
+                }
+
+                .twitter-tweet {
+                    margin: 5% auto;
+                }
+
                 @media (max-width: 768px) {
                     .container {
                         padding: 0 5%;
@@ -135,6 +144,10 @@ const Post = ({htmlString, data}) => {
 
                     li {
                         font-size: 18px;
+                    }
+
+                    iframe {
+                        width: 100%;
                     }
                 }
 
