@@ -50,8 +50,7 @@ const Post = ({htmlString, data}) => {
                     margin-top: 2%;
                     width: 50%;
                     display: block;
-                    border: 1px solid black;
-                    border-bottom: 5px solid red;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
                 }
                 
                 h1, h2, h3, h4 {
@@ -88,7 +87,11 @@ const Post = ({htmlString, data}) => {
                     margin: auto;
                 }
 
-                @media (max-width: 768px) {
+                a:hover {
+                    color: blue;
+                }
+
+                @media (max-width: 812px) {
                     .container {
                         padding: 0 5%;
                     }

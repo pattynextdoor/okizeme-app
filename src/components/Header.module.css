@@ -6,6 +6,11 @@
     width: 75%;
     max-height: 115px;
     margin: 0 auto;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    background-color: #fff;
 }
 
 .search {
@@ -45,13 +50,14 @@
     color: #333 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .header {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         justify-content: center;
         max-height: none;
         margin-bottom: 10%;
+        position: initial;
     }
 
     .logoLink {
@@ -62,6 +68,7 @@
     .headerRight {
         margin-left: 0;
         justify-self: center;
+        width: 75%;
     }
 
     .headerRight a {

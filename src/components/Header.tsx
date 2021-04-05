@@ -24,7 +24,7 @@ export default function Header() {
             <div className={styles.headerRight}>
                 <Link href="/">
                     <a className={router.asPath == "/" ? styles.active : ""}>
-                        About
+                        Home 
                     </a>
                 </Link>
                 <Link href="/posts">

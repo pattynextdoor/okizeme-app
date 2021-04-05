@@ -141,7 +141,7 @@
   text-align: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .heroContent > h1 {
     font-size: 5em;
   }

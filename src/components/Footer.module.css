@@ -46,7 +46,7 @@
   vertical-align: bottom;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .main {
     overflow: hidden;
   }
@@ -60,7 +60,7 @@
   }
 
   .footer {
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 5% 0;
     flex-direction: column-reverse;
   }
