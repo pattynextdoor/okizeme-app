@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Melty Blood - Type Lumina: The game you've waited 20 years for",
+            "description": "Rollback netcode, new mechanics, and more.",
+            "imgSrc": "https://cdn1.dotesports.com/wp-content/uploads/2021/03/25233937/ExYEnnrVIAQj9xr-1.jpg",
+            "src": "meltyblood-type-lumina",
+            "wc": 642
+        },
+        {
             "title": "Fighting Games Debunked: Banning Characters",
             "description": "Should characters be banned in tournament/competitive play?",
             "imgSrc": "https://i.ibb.co/fHhg8Ts/OKIZEME-ARTICLE-PHOTO-1.png",

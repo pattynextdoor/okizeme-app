@@ -84,9 +84,14 @@ const Post = ({htmlString, data}) => {
                     text-align: left;
                 }
                 
-                p > img {
+                img, p > img {
                     display: block;
                     margin: auto;
+                }
+
+                img {
+                    max-width: 100%;
+                    margin: 5% auto;
                 }
 
                 ul {
