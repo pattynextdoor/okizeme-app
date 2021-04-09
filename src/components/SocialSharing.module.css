@@ -41,7 +41,7 @@ h5.socialHeading {
     font-size: 0.9em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
     .socialSharing {
         display: none;
     }

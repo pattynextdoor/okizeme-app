@@ -47,11 +47,16 @@ const Post = ({htmlString, data}) => {
 
                 .coverImg {
                     margin: 0 auto;
-                    margin-top: 2%;
+                    margin-top: 10%;
                     width: 50%;
                     display: block;
-                    border: 1px solid black;
-                    border-bottom: 5px solid red;
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+                    transition-duration: 0.5s;
+                }
+
+                .coverImg:hover {
+                    width: 52%;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
                 }
                 
                 h1, h2, h3, h4 {
@@ -114,7 +119,7 @@ const Post = ({htmlString, data}) => {
                     margin: 5% auto;
                 }
 
-                @media (max-width: 768px) {
+                @media (max-width: 812px) {
                     .container {
                         padding: 0 5%;
                     }

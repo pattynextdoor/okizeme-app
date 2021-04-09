@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaBook } from 'react-icons/fa'
-import { Tag } from 'carbon-components-react'
+import { FaRegClock } from 'react-icons/fa'
+import AOS from 'aos'
+import "aos/dist/aos.css"
 import styles from './HomeArticleCard.module.css'
 
 type Props = {
@@ -14,26 +15,38 @@ type Props = {
 }
 
 export default function HomeArticleCard({ title, description, imgSrc, src, wc }: Props) {
+    useEffect(() => {
+        AOS.init()
+    }, [])
+
     return (
-        <>
-            <Link href="/posts/[slug]" as={`/posts/${src}`}>
-            <a className={styles.card}>
-                <div className={styles.cardImgWrapper}>
-                    <Image src={imgSrc} 
-                           width={600}
-                           height={340}/>
-                </div>
-                <div className={styles.textContent}>
-                    <h3> {title} &rarr;</h3>
-                    <p className={styles.subtitle}>{description}</p>
-                    <p className={styles.description}>
-                         
-                    </p>
-                    <Tag className={styles.tag} type="cyan">{convertWordsToMinutes(wc)} minute read</Tag>
-                </div>
-            </a> 
-            </Link>
-        </>
+        <div className={styles.card}>
+            <div className={styles.imgWrapper}
+                 data-aos="fade-up"
+                 data-aos-duration="300"
+                 data-aos-delay="100">
+                <Image src={imgSrc}
+                    width={640}
+                    height={360}
+                    className={styles.cardImg}
+                     />
+            </div>
+
+            <div className={styles.cardInfo}
+                 data-aos="zoom-in-left"
+                 data-aos-duration="300"
+                 data-aos-delay="200">
+                <p className={styles.readTime}>{convertWordsToMinutes(wc)} minute read <FaRegClock /></p>
+
+                <h3> {title} &rarr;</h3>
+                <p className={styles.subtitle}>{description}</p>
+                <Link href="/posts/[slug]" as={`/posts/${src}`}>
+                    <a className={styles.readNow}>
+                        READ NOW
+                    </a>
+                </Link>
+            </div>
+        </div>
     )
 }
 

@@ -1,9 +1,11 @@
 .footer {
   width: 100%;
-  border-top: 1px solid #eaeaea;
-  margin-top: 5%;
-  text-align: center;
   padding: 3% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  white-space: nowrap;
 }
 
 .footer a {
@@ -11,34 +13,78 @@
   justify-content: center;
 }
 
+.messages {
+  display: inline-block;
+}
+
 .message {
-    margin-top: 15%;
-    font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 .socialMediaLinks {
-  list-style-type: none;
+  width: 300px;
+  list-style-type: none !important;
+  text-align: center;
+  align-self: center;
+  
+  margin-bottom: 0 !important;
+  line-height: 1 !important;
 }
 
 .socialMediaLinks > li {
   display: inline-block;
-  margin: 0 1%;
+  margin: 0 5%;
 }
 
 .socialMediaLinks > li > a {
   color: #333;
-  font-size: 1.5em;
+  font-size: 24px !important;
 }
 
+.footerImg {
+  width: 60px;
+  margin-left: 10% !important;
+  margin-right: 5% !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  vertical-align: bottom;
+  max-width: none !important;
+  display: inline;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
+  .main {
+    overflow: hidden;
+  }
+
+  .socialMediaLinks {
+    padding-left: 0;
+  }
+
+  .socialMediaLinks > li {
+    font-size: 0.75em;
+  }
+
   .footer {
-    margin-top: 20%;
+    margin-top: 10%;
     padding: 5% 0;
+    flex-direction: column-reverse;
+  }
+
+  .messages {
+    flex: 100%;
+    text-align: center;
   }
 
   .message {
     font-size: 0.75rem;
+  }
+
+  .footerImg {
+    vertical-align: none;
+    margin-left: 0;
+    margin-right: 0;
+    display: none;
   }
   
 }
