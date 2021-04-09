@@ -5,7 +5,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import HomeArticleCard from '../../components/HomeArticleCard'
 import SearchBar from '../../components/SearchBar'
-import styles from '../../styles/Posts.module.css'
+import styles from '../../styles/posts.module.css'
 
 import articleData from '../../data/articles.json'
 
