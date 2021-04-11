@@ -1,6 +1,6 @@
 ---
-title: "Fighting Games Debunked: Myth 3"
-description: Welcome to Okizeme Gaming’s Fighting Games Debunked. This series is dedicated to improving the retention of fighting game players.
+title: "Fighting Games Debunked: Picking a Character"
+description: Which character should I play?
 cover: https://i.ibb.co/kx7MHbb/myth-3-cover-KL.png 
 slug: debunked-myth-3
 ---
