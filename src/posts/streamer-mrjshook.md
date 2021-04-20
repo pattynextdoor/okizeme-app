@@ -19,13 +19,13 @@ Shook watched video game content creators on Youtube, such as [XChaseMoney](http
 
 If you were to come into Shook's community, he would describe the experience as hopeful and supportive. There are people in his community who actively engage among themselves, and they are a very loving community. They support so many channels, and if people come in having a bad day, you will always feel better by the end of the night. They refer to themselves as the Azure Wolves and this wolfpack is close and tightknit as they come.
 
-<iframe src="https://clips.twitch.tv/embed?clip=MushyFlaccidShrewKappaWealth-niIafgWkaAKGwdgc&parent=www.okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=MushyFlaccidShrewKappaWealth-niIafgWkaAKGwdgc&parent=okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 ## **What is unique about MrJShook's channel?**
 
 One thing that stuck out most was his creative channel point, "Make the next stream yours," where the viewer can choose the game or content of the next stream that caters specifically to that viewer. It's a way for viewers to engage with Shook, but it also the way for Shook to reciprocate the support back to his viewers, making things as enjoyable and personable as possible.
 
-<iframe src="https://clips.twitch.tv/embed?clip=FunAmazonianSnoodSwiftRage&parent=www.okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=FunAmazonianSnoodSwiftRage&parent=okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 ## **What is Shook's favorite part about streaming?**
 
@@ -43,13 +43,13 @@ Fortunately, Shook can balance streaming with his personal life well. He's able 
 
 There is 0 tolerance for negativity on Shook's channel, his self-confidence is solid, and he knows "he's the shit.” Often, the negativity doesn't affect Shook because he has very thick skin when it comes to this stuff; however, if there is negativity towards his community, there is going to be zero tolerance. He understands that people may feel very strongly about a game, but the game is just a game at the end of the day. You shouldn't be using the game itself as an excuse for negative behavior. There are many levels of gaming, and Shook is not a professional gamer, so don't expect professional-level play. To Shook, negativity comes and goes, and there's no need to hold onto it.
 
-<iframe src="https://clips.twitch.tv/embed?clip=AlertHappyCourgetteGivePLZ-s3iAz8971t18NWNo&parent=www.okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=AlertHappyCourgetteGivePLZ-s3iAz8971t18NWNo&parent=okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 ## **What do you think are some entry barriers for streaming; do you think you have to be good at a game?**
 
 You may have one group of viewers that love that one specific game you play, and you may have another group that will only tune in to another game that you play. That is the risk you run as a variety streamer. Sometimes you can have a more significant following because you are good at a game, and you can run in-house competitions among you and your viewers. But each streaming style has its pros and cons, but streaming is not about what you need to start. It's about creating and having a lot of grit doing and working off of that.
 
-<iframe src="https://clips.twitch.tv/embed?clip=CreativeDeafDuckBatChest-b_E1yOTR6QGeDQNq&parent=www.okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=CreativeDeafDuckBatChest-b_E1yOTR6QGeDQNq&parent=okizeme.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
 ## **If you had a magic wand and can change one thing about the gaming community, what would it be?**
 
