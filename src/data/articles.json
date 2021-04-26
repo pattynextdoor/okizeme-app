@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Quarter Circle or Full Circle?\nMortal Kombat\nOkizeme Fighting Game Movie Reviews",
+            "description": "Are fighting games finally good enough for the big screen?", 
+            "imgSrc": "https://i.ibb.co/wYNfwwt/mortal-kombat-character-posters-social-featured.webp",
+            "src": "qc-fc-mortal-kombat",
+            "wc": 2363
+        },
+        {
             "title": "Streamer Spotlight: MrJShook",
             "description": "Okizeme gets personal with your favorite streamer's favorite streamer.",
             "imgSrc": "https://i.ibb.co/9sCjrk1/Streamer-Spotlight-Mr-JShook.png",

@@ -45,6 +45,10 @@ const Post = ({htmlString, data}) => {
                     padding: 0 25%;
                 }
 
+                .centered {
+                    text-align: center;
+                }
+
                 .coverImg {
                     margin: 0 auto;
                     margin-top: 10%;
