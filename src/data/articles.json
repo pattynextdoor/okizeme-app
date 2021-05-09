@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Top 10 Best Designed Fighting Game Characters of All Time",
+            "description": "Did your favorite make the cut? How well designed are these characters from all other fighting games?", 
+            "imgSrc": "https://i.ibb.co/zbHcwc7/Top-10-designed.png",
+            "src": "top-10-designed-fg-characters",
+            "wc": 1251
+        },
+        {
             "title": "Quarter Circle or Full Circle?\nMortal Kombat\nOkizeme Fighting Game Movie Reviews",
             "description": "Are fighting games finally good enough for the big screen?", 
             "imgSrc": "https://i.ibb.co/wYNfwwt/mortal-kombat-character-posters-social-featured.webp",
