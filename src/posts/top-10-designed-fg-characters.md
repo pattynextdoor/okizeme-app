@@ -13,7 +13,7 @@ We are taking a look into Okizeme's 10 best-designed fighting game characters of
 
 ![Erron Black](https://cdn.vox-cdn.com/uploads/chorus_asset/file/3513708/mkx_erron_black.0.jpg)
 
-He's a fucking cowboy. What more can you say? It's tough to introduce western media into a hefty Japanese-influenced game style. Eren Black was a special roster edition to MK X that had a gruff solo gunslinger to his feel. He had great mix-ups, excellent damage output. He was an overall great pick into mastering MK X as he was basically a scrubstomper. From the traditional Mortal Kombat style of gods, humans, cyborgs, ninjas, and demons. Eren Black is a refreshing character design into the Mortal Kombat franchise.
+He's a fucking cowboy. What more can you say? It's tough to introduce western media into a hefty Japanese-influenced game style. Eren Black was a special roster edition to MK X that had a gruff solo gunslinger to his feel. He had great mix-ups, excellent damage output. He was an overall great pick into mastering MK X as he was basically a scrubstomper. From the traditional Mortal Kombat style of gods, humans, cyborgs, ninjas, and demons. Erron Black is a refreshing character design into the Mortal Kombat franchise.
 
 ## 9. Kirby (Super Smash Bros)
 
