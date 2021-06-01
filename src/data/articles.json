@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Top 10 Worst Fighting Games of All Time",
+            "description": "How bad can fighting games actually get? Really bad apparently...", 
+            "imgSrc": "https://i.ibb.co/khgf8Pr/6.png",
+            "src": "worst-games-all-time",
+            "wc": 1547
+        },
+        {
             "title": "Top 10 Best Designed Fighting Game Characters of All Time",
             "description": "Did your favorite make the cut? How well designed are these characters from all other fighting games?", 
             "imgSrc": "https://i.ibb.co/zbHcwc7/Top-10-designed.png",
