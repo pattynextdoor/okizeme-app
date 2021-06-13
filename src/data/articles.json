@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Guilty Gear -Strive- for Scrubs. Things to know when learning the game",
+            "description": "Helpful tips to help improve your gameplay",
+            "imgSrc": "https://i.ibb.co/kmZFDxh/Bb-Ud-Rz-Kqfr-RRdle-Ej-Jx-DAd-GG.webp",
+            "src": "ggst-for-scrubs",
+            "wc": 1604
+        },
+        {
             "title": "Top 10 Worst Fighting Games of All Time",
             "description": "How bad can fighting games actually get? Really bad apparently...", 
             "imgSrc": "https://i.ibb.co/khgf8Pr/6.png",
