@@ -9,7 +9,7 @@ slug: tips-and-tricks-with-chipp
 
 With *Guilty Gear -Strive-*'s recent release, many players are considering picking up Chipp. With fast starters, huge combo potentials,and quick crossups, Chipp can easily control the neutral game and punish opponents with holes in their defense.
 
-However, Chipp is one of (if not *the*) squishies characters in the game. An opponent with an unbeatable defense can take advantage of Chipp's mistakes.
+However, Chipp is one of (if not *the*) squishiest characters in the game. An opponent with an unbeatable defense can take advantage of Chipp's mistakes.
 
 We'll go over a few tips to keep in mind while you play this high speed character.
 
