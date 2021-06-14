@@ -17,6 +17,8 @@ We'll go over a few tips to keep in mind while you play this high speed characte
 
 Chipp's `236H` move sends out a shadow clone horizontally. Though this move is safe on block, **you take damage that your clone takes!**
 
+Not only that, but if you AND your clone are hit, then you seem to receive double damage. *Not sure if this is the case, but was observed in the GIF below.*
+
 ![Chipp clone getting punished](https://i.ibb.co/qRygcxL/ezgif-com-gif-maker-4.gif)
 
 This move works well as a combo follow-up and has some utility as a poke. However, use caution when using it as a poke in neutral, especially when you're facing an opponent with hard-hitting moves.
