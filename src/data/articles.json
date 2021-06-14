@@ -1,6 +1,13 @@
 {
     "articles": [
         {
+            "title": "Don't trip! 3 Quick Tips and Tricks with Chipp",
+            "description": "This Guilty Gear -Strive- character is fast, but swatted away like a fly.",
+            "imgSrc": "https://i.ibb.co/s3qtFd0/Tips-and-Tricks-with-Chipp.png",
+            "src": "tips-and-tricks-with-chipp",
+            "wc": 100
+        },
+        {
             "title": "Guilty Gear -Strive- for Scrubs. Things to know when learning the game",
             "description": "Helpful tips to help improve your gameplay",
             "imgSrc": "https://i.ibb.co/kmZFDxh/Bb-Ud-Rz-Kqfr-RRdle-Ej-Jx-DAd-GG.webp",
