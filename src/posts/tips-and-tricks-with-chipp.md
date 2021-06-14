@@ -41,7 +41,7 @@ Senshuu (`236K`) can be performed directly after a Resshou (`236S`) OR a Rokusai
 
 Rokusai hits overhead, and can follow up with more attacks on hit since the opponent bounces on the ground. However, it has a long startup and recovery period where opponents can punish Chipp if they can see the Senshuu coming.
 
-**Mix up using Senshuu after Resshou, Resshou-Rokusai, and not using it at all during your blockstrings to keep your opponents guessing.*
+*Mix up using Senshuu after Resshou, Resshou-Rokusai, and not using it at all during your blockstrings to keep your opponents guessing.*
 
 ![Chipp getting punished by Sol super](https://i.ibb.co/K6NtW3j/ezgif-com-gif-maker-6.gif)
 
