@@ -14,7 +14,7 @@ slug: ggst-for-scrubs
 
 ## *Things to Know When Learning the Game.*
 
-*Guilty Gear -Strive-* is officially live on all platforms and people around the world are playing the most hype fighting game of 2021. The *Guilty Gear* franchise is more than 20 years old, and with this new game, it is attracting the attention of veteran players and new players alike! For new players, this game can be really scary starting off since many of its mechanic are unique to *Guilty Gear*. So, we have compiled some of the best tips for new players getting into the *Guilty Gear* franchise.
+*Guilty Gear -Strive-* is officially live on Steam and PS4/5, and people around the world are playing the most hype fighting game of 2021. The *Guilty Gear* franchise is more than 20 years old, and with this new game, it is attracting the attention of veteran players and new players alike! For new players, this game can be really scary starting off since many of its mechanic are unique to *Guilty Gear*. So, we have compiled some of the best tips for new players getting into the *Guilty Gear* franchise.
 
 ## Playing With Friends
 
