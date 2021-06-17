@@ -1,11 +1,18 @@
 {
     "articles": [
         {
+            "title": "TOTSUGEKI! Tips and tricks to play as and beat May",
+            "description": "Here are a few tips to help you understand the May matchup a little better!",
+            "imgSrc": "https://i.ibb.co/b6ggyHj/May-win-screen.png",
+            "src": "may-tips-and-tricks",
+            "wc": 1324
+        },
+        {
             "title": "Don't trip! 3 Quick Tips and Tricks with Chipp",
             "description": "This Guilty Gear -Strive- character is fast, but swatted away like a fly.",
             "imgSrc": "https://i.ibb.co/s3qtFd0/Tips-and-Tricks-with-Chipp.png",
             "src": "tips-and-tricks-with-chipp",
-            "wc": 100
+            "wc": 467 
         },
         {
             "title": "Guilty Gear -Strive- for Scrubs. Things to know when learning the game",
