@@ -12,7 +12,7 @@ slug: may-tips-and-tricks
 
 # TOTSUGEKI! Tips and Tricks to Play As and Beat May
 
-May has been a menace for newcomers to Guilty Gear -Strive-. Not only is she a solid pick into many matchups, but she comes with a plethora of pressure tools that forces the opponents to remain in block stun for a long time or has tools that beat many players counterattack options. We will be talking about tips and tricks on how to play May better and tips and tricks on how to beat May!
+May has been a menace for newcomers to Guilty Gear -Strive-. Not only is she a solid pick into many matchups, but she comes with a plethora of pressure tools that forces the opponents to remain in block stun for a long time. She also has tools that beat many players counterattack options. We will be talking about tips and tricks on how to play May better and tips and tricks on how to beat May!
 
 ## Tips for playing May
 
@@ -22,21 +22,21 @@ May is a charge character, similar to Guile and Alex from the Street Fighter fra
 
 ![Numpad Notation Sheet](https://preview.redd.it/sd183vkqsnd01.jpg?auto=webp&s=9c9f1ff88d9089e5813591e2e655601f9462f5fa)
 
-May's Mr. Dolphin move is her premier charge move: to use the horizontal version we hold the input 4(back) for ~30 frames (~1/2 second) and immediate press 6 (forward) + the slash or heavy slash, and to use the vertical version we input 2 (down) for ~30 frames (~1/2 second) and immediate press 8 (up) + slash or heavy slash.
+May's Mr. Dolphin move is her premier charge move: to use the horizontal version we hold the input 4 (back) for ~30 frames (~1/2 second) and immediate press 6 (forward) + the slash or heavy slash, and to use the vertical version we input 2 (down) for ~30 frames (~1/2 second) and immediate press 8 (up) + slash or heavy slash.
 
-The slash version has a 7 frame startup (1/10th of a second) is -5 frames on block. Her heavy slash version has a 25 frame startup but is +5 on block! Mixing these options gives good offensive tools to stay safe and/or reset pressure.
+The slash version has a 7-frame startup (1/10th of a second) is -5 frames on block. Her heavy slash version has a 25-frame startup but is +5 on block! Mixing these options gives good offensive tools to stay safe and/or reset pressure.
 
 ![Totsugeki basic inputs](https://i.ibb.co/z43Lk28/Totsugeki-basic-inputs.gif)
 
-But, what good May players will do that new players will not; is that you can buffer the horizontal **AND** the vertical move at the same exact time, giving you way better options when blocking and defending.
+But, what good May players will do that new players will not; is that **you can buffer the horizontal **AND** the vertical move at the same time**, giving you way better options when blocking and defending. This is achieved by holding down and back at the same time.
 
-**How do we hold down and back at the same time?**
+How do we hold down and back at the same time?
 
-Well the answer is simple holding the DPAD or fightstick at 1 (down-back) position allows you to buffer two inputs at the same time. When playing fighting games, there are only four directions 2,4,6,8 (down, left, right, up) that is read by the game. Holding diagonal positions 1,3,7,9 are actually a combination input! The combination in this case is back and down or down-back (1). Because you are technically entering two inputs simultaneously, they are buffered individually in the case of May's charge special move. 
+**Simply holding the DPAD or fightstick at 1 (down-back) position allows you to buffer two inputs at the same time.** When playing fighting games, there are only four directions 2,4,6,8 (down, left, right, up) that is read by the game. Holding diagonal positions 1,3,7,9 are actually a combination input! The combination in this case is back and down or down-back (1). Because you are technically entering two inputs simultaneously, they are buffered individually in the case of May's charge special move. 
 
 ![down back buffer](https://i.ibb.co/LYw2CQL/down-back-buffer.gif)
 
-So the inputs for Mays charge moves can be buffered as [1]6S | [1]6HS or [1]8S | [1]8HS! You can also make the input easier for yourself on the vertical *Totsugeki* by inputting [1]9S | [1]9HS, where the game will prioritize the jump (8) input over the forward 6 input and give you a cleaner input to anti-air the opponent.
+So the inputs for Mays charge moves can be buffered as `[1]6S | [1]6HS` or `[1]8S | [1]8HS`! You can also make the input easier for yourself on the vertical *Totsugeki* by inputting `[1]9S | [1]9HS`, where the game will prioritize the jump (8) input over the forward 6 input and give you a cleaner input to anti-air the opponent.
 
 #### What's the benefit?
 
@@ -46,9 +46,9 @@ The benefit is that you are able to crouch block while buffering a reactive *Tot
 
 May is a charge character and by nature her combos may seem difficult at first to understand. Blending in Totsugeki's mid combo strings are a learned skill, but there are some things to remember.
 * May doesn't have a command normal that uses 4(back), so when you are doing a simple Slash > Heavy Slash poke. You can buffer 4 (back) during the moves and use them to follow up with a Totsugeki.
-   * A simple combo in this sense would be 5S > 5HS > [4]6S, where you can buffer the back input (4) as early as the standing slash.
+   * A simple combo in this sense would be `5S > 5HS > [4]6S`, where you can buffer the back input (4) as early as the standing slash.
 * The same rule applies for horizontal Totsugeki, you can buffer 1 (down-back) to follow up your combo strings. Be wary that by holding down-back (1), the game will prioritize the crouching position meaning you will be using your crouching moves as a combo.
-   * A simple combo in this sense would be 2HS > [4]6HS or [2]8HS, where you can buffer the down-back (1) position to hit your 2HS...
+   * A simple combo in this sense would be `2HS > [4]6HS or [2]8HS`, where you can buffer the down-back (1) position to hit your 2HS...
    ![May midscreen BNB](https://i.ibb.co/48TKGnj/May-midscreen-BNB.gif)
 * Being able to use a combination of switching your guard and buffering 4/1 will lead you to be very successful in learning May.
 
