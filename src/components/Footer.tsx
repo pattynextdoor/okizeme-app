@@ -12,6 +12,8 @@ export default function Footer() {
                 <span className={styles.messages}>
                     <i className={styles.message}>Made with (✿◡‿◡)</i>
                     <br/>
+                    <i className={styles.message}>Get in touch! -> info@okizeme.com</i>
+                    <br/>
                     <i className={styles.message}>
                         Copyright <FaCopyright /> 2021 Okizeme Gaming. All Rights Reserved
                     </i>
