@@ -2,6 +2,7 @@
     "articles": [
         {
             "title": "TOTSUGEKI! Tips and tricks to play as and beat May",
+            "author": "ghost_oki",
             "description": "Here are a few tips to help you understand the May matchup a little better!",
             "imgSrc": "https://i.ibb.co/b6ggyHj/May-win-screen.png",
             "src": "may-tips-and-tricks",
@@ -9,6 +10,7 @@
         },
         {
             "title": "Don't trip! 3 Quick Tips and Tricks with Chipp",
+            "author": "pattynextdoor",
             "description": "This Guilty Gear -Strive- character is fast, but swatted away like a fly.",
             "imgSrc": "https://i.ibb.co/s3qtFd0/Tips-and-Tricks-with-Chipp.png",
             "src": "tips-and-tricks-with-chipp",
@@ -16,6 +18,7 @@
         },
         {
             "title": "Guilty Gear -Strive- for Scrubs. Things to know when learning the game",
+            "author": "ghost_oki",
             "description": "Helpful tips to help improve your gameplay",
             "imgSrc": "https://i.ibb.co/kmZFDxh/Bb-Ud-Rz-Kqfr-RRdle-Ej-Jx-DAd-GG.webp",
             "src": "ggst-for-scrubs",
@@ -23,6 +26,7 @@
         },
         {
             "title": "Top 10 Worst Fighting Games of All Time",
+            "author": "ghost_oki",
             "description": "How bad can fighting games actually get? Really bad apparently...", 
             "imgSrc": "https://i.ibb.co/khgf8Pr/6.png",
             "src": "worst-games-all-time",
@@ -30,6 +34,7 @@
         },
         {
             "title": "Top 10 Best Designed Fighting Game Characters of All Time",
+            "author": "ghost_oki",
             "description": "Did your favorite make the cut? How well designed are these characters from all other fighting games?", 
             "imgSrc": "https://i.ibb.co/zbHcwc7/Top-10-designed.png",
             "src": "top-10-designed-fg-characters",
@@ -37,6 +42,7 @@
         },
         {
             "title": "Quarter Circle or Full Circle?\nMortal Kombat\nOkizeme Fighting Game Movie Reviews",
+            "author": "ghost_oki",
             "description": "Are fighting games finally good enough for the big screen?", 
             "imgSrc": "https://i.ibb.co/wYNfwwt/mortal-kombat-character-posters-social-featured.webp",
             "src": "qc-fc-mortal-kombat",
@@ -44,6 +50,7 @@
         },
         {
             "title": "Streamer Spotlight: MrJShook",
+            "author": "ghost_oki",
             "description": "Okizeme gets personal with your favorite streamer's favorite streamer.",
             "imgSrc": "https://i.ibb.co/9sCjrk1/Streamer-Spotlight-Mr-JShook.png",
             "src": "streamer-mrjshook",
@@ -51,6 +58,7 @@
         },
         {
             "title": "Melty Blood - Type Lumina: The game you've waited 20 years for",
+            "author": "ghost_oki",
             "description": "Rollback netcode, new mechanics, and more.",
             "imgSrc": "https://cdn1.dotesports.com/wp-content/uploads/2021/03/25233937/ExYEnnrVIAQj9xr-1.jpg",
             "src": "meltyblood-type-lumina",
@@ -58,6 +66,7 @@
         },
         {
             "title": "Fighting Games Debunked: Banning Characters",
+            "author": "ghost_oki",
             "description": "Should characters be banned in tournament/competitive play?",
             "imgSrc": "https://i.ibb.co/fHhg8Ts/OKIZEME-ARTICLE-PHOTO-1.png",
             "src": "debunked-myth-4",
@@ -65,6 +74,7 @@
         },
         {
             "title": "Streamer Spotlight: Queergod",
+            "author": "ghost_oki",
             "description": "Okizeme exclusively interviews one of Twitch's fastest growing LGBTQ+ streamer: Queergod, aka Zee.",
             "imgSrc": "https://i.ibb.co/2jZYJLW/Streamer-Spotlight-queergod-v0-1.png",
             "src": "streamer-queergod",
@@ -72,6 +82,7 @@
         },
         {
             "title": "Quarter Circle or Full Circle?: Guilty Gear -Strive- | Okizeme Fighting Game Reviews",
+            "author": "ghost_oki",
             "description": "Is Guilty Gear -Strive- as good as people think?",
             "imgSrc": "https://i.ibb.co/0n94WKs/QCF-OR-FC-Guilty-Gear-Strive-Beta-Review-v0-1-JE-3-6-2021.png",
             "src": "qc-fc-guilty-gear-strive-review",
@@ -79,6 +90,7 @@
         },
         {
             "title": "Fighting Games Debunked: Picking a Character",
+            "author": "ghost_oki",
             "description": "Which character should I play?",
             "imgSrc": "https://i.ibb.co/kx7MHbb/myth-3-cover-KL.png",
             "src": "debunked-myth-3",
@@ -86,6 +98,7 @@
         },
         {
             "title": "Fighting Games Debunked: Stuck in Training",
+            "author": "ghost_oki",
             "description": "How many hours do I spend in training mode before I can play?",
             "imgSrc": "https://i.ibb.co/hDg1TpY/Fighting-Games-Debunked-Myth-2.png",
             "src": "debunked-myth-2",
@@ -93,6 +106,7 @@
         },
         {
             "title": "Fighting Games Debunked: High Entry Barrier",
+            "author": "ghost_oki",
             "description": "Do fighting games have an entry barrier too high for beginners?",
             "imgSrc": "https://i.ibb.co/bJd9jxd/Fighting-Games-Debunked.png",
             "src": "debunked-myth-1",
@@ -100,6 +114,7 @@
         },
         {
             "title": "The Ultimate Fighting Game Dictionary",
+            "author": "ghost_oki",
             "description": "Bookmark this page to always have this handy, and you can search any term by pressing CTRL+F and typing in the word you're looking for!",
             "imgSrc":"https://i.ibb.co/xsM5NP1/4.png",
             "src": "ultimate-fighting-game-dictionary",

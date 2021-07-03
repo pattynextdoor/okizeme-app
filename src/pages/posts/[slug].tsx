@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React, { useEffect } from 'react'
+import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -9,7 +10,13 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import SocialSharing from '../../components/SocialSharing'
 
+import articleData from '../../data/articles.json'
+import userData from '../../data/users.json'
+
 import { GetStaticPaths, GetStaticProps} from 'next'
+
+const articles = articleData.articles
+const users = userData.users
 
 const Post = ({htmlString, data}) => {
     useEffect(() => {
@@ -17,25 +24,31 @@ const Post = ({htmlString, data}) => {
         addTargetToLinks(anchorTags)
     })
 
-    const articleUrl = getArticleUrl(data.slug)
+    const article = articles.find(el => el.src == data.slug)
+    const user = users.find(el => el.username == article.author)
+    const articleUrl = getArticleUrl(article.src)
 
     return (
         <>
             <Head>
-                <title>{data.title}</title>
-                <meta property="og:title" content={data.title}/>
-                <meta property="og:description" content={data.description}/>
-                <meta property="og:image" content={data.cover}/>
+                <title>{article.title}</title>
+                <meta property="og:title" content={article.title}/>
+                <meta property="og:description" content={article.description}/>
+                <meta property="og:image" content={article.imgSrc}/>
                 <meta property="og:type" content="article" />
-                <meta name="twitter:title" content={data.title}/>
-                <meta name="twitter:description" content={data.description}/>
-                <meta name="twitter:image" content={data.cover}/>
+                <meta name="twitter:title" content={article.title}/>
+                <meta name="twitter:description" content={article.description}/>
+                <meta name="twitter:image" content={article.imgSrc}/>
             </Head>
 
             <Header/>
             <main>
                 <SocialSharing articleLink={articleUrl} />
-                <img className="coverImg" src={data.cover} alt={data.title} />
+                <img className="coverImg" src={article.imgSrc} alt={article.title} />
+                <div className="authorBlock">
+                    <img className="authorImg" src={user.img} />
+                    <p className="author"><Link href={"/user/" + article.author}>{"@" + article.author}</Link></p>
+                </div>
                 <div className="container"
                      dangerouslySetInnerHTML={{ __html: htmlString}}></div>
             </main>
@@ -61,6 +74,25 @@ const Post = ({htmlString, data}) => {
                 .coverImg:hover {
                     width: 52%;
                     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+                }
+
+                .authorBlock {
+                    display: flex;
+                    padding-top: 2%;
+                    flex-direction: horizontal;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                }
+
+                .authorImg {
+                    border-radius: 50%;
+                    width: 50px;
+                    margin: 0 !important;
+                }
+
+                .author {
+                    margin: 0 !important;
                 }
                 
                 h1, h2, h3, h4 {
@@ -121,6 +153,10 @@ const Post = ({htmlString, data}) => {
 
                 .twitter-tweet {
                     margin: 5% auto;
+                }
+
+                .author {
+                    text-align: center;
                 }
 
                 @media (max-width: 812px) {

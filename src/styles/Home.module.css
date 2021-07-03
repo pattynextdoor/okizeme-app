@@ -117,7 +117,7 @@
 .contentGrid {
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: center;
+  justify-items: left;
 
   margin-top: 3rem;
   margin-bottom: 10%;
