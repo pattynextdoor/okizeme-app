@@ -14,7 +14,7 @@ type Props = {
     wc: number
 }
 
-export default function HomeArticleCard({ title, description, imgSrc, src, wc, isSmall = false }: Props) {
+export default function HomeArticleCard({ title, description, imgSrc, src, wc }: Props) {
     useEffect(() => {
         AOS.init()
     }, [])
