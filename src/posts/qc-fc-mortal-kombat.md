@@ -4,7 +4,7 @@ Mortal Kombat
 Okizeme Fighting Game Movie Reviews"
 description: Are fighting games finally good enough for the big screen?
 cover: https://i.ibb.co/wYNfwwt/mortal-kombat-character-posters-social-featured.webp
-slug: qc-fc-Mortal-Kombat
+slug: qc-fc-mortal-kombat
 ---
 # Quarter Circle or Full Circle <br> Mortal Kombat 2021
 
