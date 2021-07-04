@@ -11,8 +11,7 @@ type Props = {
     description: string,
     imgSrc: string,
     src: string,
-    wc: number,
-    isSmall: boolean
+    wc: number
 }
 
 export default function HomeArticleCard({ title, description, imgSrc, src, wc, isSmall = false }: Props) {
