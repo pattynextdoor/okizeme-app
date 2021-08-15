@@ -1,6 +1,14 @@
 {
     "articles": [
         {
+            "title": "Jack-O' returns for Guilty Gear Strive",
+            "author": "ghost_oki",
+            "description": "Guilty Gear Strive's 2nd Season 1 DLC character has just been revealed!",
+            "imgSrc": "https://i.redd.it/4hn4uc3hs7h71.png",
+            "src": "jack-o-valentine-dlc-guilty-gear-strive",
+            "wc": 736
+        },
+        {
             "title": "Big changes are coming to Arcsys Guilty Gear: -Strive-!!!",
             "author": "ghost_oki",
             "description": "Rollback Netcode, Crossplay, and so much more",
