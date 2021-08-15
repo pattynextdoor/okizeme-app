@@ -1,7 +1,7 @@
 ---
 title: Jack-O' returns for Guilty Gear Strive!
 description: Guilty Gear Strive's 2nd Season 1 DLC character has just been revealed!
-cover: https://i.redd.it/4hn4uc3hs7h71.png
+cover: https://i.ibb.co/Wy1W0S5/4hn4uc3hs7h71-1.png
 slug: jack-o-valentine-dlc-guilty-gear-strive
 ---
 
