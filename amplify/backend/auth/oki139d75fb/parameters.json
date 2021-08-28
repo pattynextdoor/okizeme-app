@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "okizemed5d7b765_identitypool_d5d7b765",
+    "identityPoolName": "oki139d75fb_identitypool_139d75fb",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "okizemd5d7b765",
-    "userPoolName": "okizemed5d7b765_userpool_d5d7b765",
+    "resourceNameTruncated": "oki139d75fb",
+    "userPoolName": "oki139d75fb_userpool_139d75fb",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -20,6 +20,9 @@
     "requiredAttributes": [
         "email"
     ],
+    "aliasAttributes": [
+        "email"
+    ],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
@@ -28,10 +31,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "okizemd5d7b765_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "oki139139d75fb_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "d5d7b765",
-    "resourceName": "okizemed5d7b765",
+    "sharedId": "139d75fb",
+    "resourceName": "oki139d75fb",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,27 +49,8 @@
         ]
     },
     "useDefault": "default",
-    "usernameAttributes": [
-        "email"
-    ],
-    "triggers": "{\n  \"CustomMessage\": [\n    \"verification-link\"\n  ]\n}",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
-    "verificationBucketName": "okizemed5d7b765verificationbucket",
     "usernameCaseSensitive": false,
-    "parentStack": {
-        "Ref": "AWS::StackId"
-    },
-    "permissions": [],
-    "dependsOn": [
-        {
-            "category": "function",
-            "resourceName": "okizemed5d7b765CustomMessage",
-            "triggerProvider": "Cognito",
-            "attributes": [
-                "Arn",
-                "Name"
-            ]
-        }
-    ]
+    "dependsOn": []
 }

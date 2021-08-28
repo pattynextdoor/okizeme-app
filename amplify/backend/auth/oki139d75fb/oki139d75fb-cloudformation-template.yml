@@ -1,3 +1,4 @@
+
 AWSTemplateFormatVersion: 2010-09-09
 
 Parameters:
@@ -8,18 +9,6 @@ Parameters:
   unauthRoleArn:
     Type: String
 
-  
-  
-  
-  functionokizemed5d7b765CustomMessageArn:
-    Type: String
-    Default: functionokizemed5d7b765CustomMessageArn
-  
-  functionokizemed5d7b765CustomMessageName:
-    Type: String
-    Default: functionokizemed5d7b765CustomMessageName
-  
-  
   
 
     
@@ -83,6 +72,10 @@ Parameters:
   requiredAttributes:
     Type: CommaDelimitedList
       
+        
+  aliasAttributes:
+    Type: CommaDelimitedList
+      
   
   userpoolClientGenerateSecret:
     Type: String
@@ -126,14 +119,6 @@ Parameters:
   
             
         
-  usernameAttributes:
-    Type: CommaDelimitedList
-      
-  triggers:
-    Type: String
-  
-            
-        
   userPoolGroupList:
     Type: CommaDelimitedList
       
@@ -142,22 +127,10 @@ Parameters:
     Type: String
   
             
-  verificationBucketName:
-    Type: String
-  
-            
   
   usernameCaseSensitive:
     Type: String
             
-      
-  parentStack:
-    Type: String
-        
-        
-  permissions:
-    Type: CommaDelimitedList
-      
         
   dependsOn:
     Type: CommaDelimitedList
@@ -166,30 +139,9 @@ Conditions:
   ShouldNotCreateEnvResources: !Equals [ !Ref env, NONE ]
   
   ShouldOutputAppClientSecrets: !Equals [!Ref userpoolClientGenerateSecret, true ]
-   
+  
 
 Resources:
-  
-  CustomMessageConfirmationBucket:
-    Type: AWS::S3::Bucket
-    DeletionPolicy: "Retain"
-    Properties:
-      BucketName:  !If [ShouldNotCreateEnvResources, !Ref verificationBucketName, !Join ['',[!Ref verificationBucketName, '-', !Ref env]]]
-      AccessControl: "Private"
-      WebsiteConfiguration:
-        IndexDocument: "index.html"
-        ErrorDocument: "index.html"
-      CorsConfiguration:
-        CorsRules:
-          -
-            AllowedHeaders:
-              - "Authorization"
-              - "Content-Length"
-            AllowedMethods:
-              - "GET"
-            AllowedOrigins:
-              - "*"
-            MaxAge: 3000
   
   
   # BEGIN SNS ROLE RESOURCE
@@ -197,7 +149,7 @@ Resources:
   # Created to allow the UserPool SMS Config to publish via the Simple Notification Service during MFA Process
     Type: AWS::IAM::Role
     Properties:
-      RoleName: !If [ShouldNotCreateEnvResources, 'okizemd5d7b765_sns-role', !Join ['',[ 'sns', 'd5d7b765', !Select [3, !Split ['-', !Ref 'AWS::StackName']], '-', !Ref env]]]
+      RoleName: !If [ShouldNotCreateEnvResources, 'oki139d75fb_sns-role', !Join ['',[ 'sns', '139d75fb', !Select [3, !Split ['-', !Ref 'AWS::StackName']], '-', !Ref env]]]
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
@@ -209,10 +161,10 @@ Resources:
               - "sts:AssumeRole"
             Condition:
               StringEquals:
-                sts:ExternalId: okizemd5d7b765_role_external_id
+                sts:ExternalId: oki139d75fb_role_external_id
       Policies:
         -
-          PolicyName: okizemd5d7b765-sns-policy
+          PolicyName: oki139d75fb-sns-policy
           PolicyDocument:
             Version: "2012-10-17"
             Statement:
@@ -243,21 +195,11 @@ Resources:
         
       
       
-      LambdaConfig:
-        
-        
-          CustomMessage: !Ref functionokizemed5d7b765CustomMessageArn
-        
-        
-        
-        
-        
-        
-        
-        
       
+      AutoVerifiedAttributes:
       
-      AutoVerifiedAttributes: !Ref autoVerifiedAttributes
+        - email
+      
       
       
       EmailVerificationMessage: !Ref emailVerificationMessage
@@ -271,42 +213,23 @@ Resources:
           RequireSymbols: false
           RequireUppercase: false
       
-      UsernameAttributes: !Ref usernameAttributes
+      
+      AliasAttributes: !Ref aliasAttributes
       
       MfaConfiguration: !Ref mfaConfiguration
       SmsVerificationMessage: !Ref smsVerificationMessage
+      SmsAuthenticationMessage: !Ref smsAuthenticationMessage
       SmsConfiguration:
         SnsCallerArn: !GetAtt SNSRole.Arn
-        ExternalId: okizemd5d7b765_role_external_id
+        ExternalId: oki139d75fb_role_external_id
     
-  
-  
-  
-  UserPoolCustomMessageLambdaInvokePermission:
-    Type: "AWS::Lambda::Permission"
-    DependsOn: UserPool
-    Properties:
-      Action: "lambda:invokeFunction"
-      Principal: "cognito-idp.amazonaws.com"
-      FunctionName: !Ref functionokizemed5d7b765CustomMessageName
-      SourceArn: !GetAtt UserPool.Arn
-  
-  
-  
-  
-  
-  
-  
-  
-  # Updating lambda role with permissions to Cognito
-  
   
   UserPoolClientWeb:
   # Created provide application access to user pool
   # Depends on UserPool for ID reference
     Type: "AWS::Cognito::UserPoolClient"
     Properties:
-      ClientName: okizemd5d7b765_app_clientWeb
+      ClientName: oki139d75fb_app_clientWeb
       
       RefreshTokenValidity: !Ref userpoolClientRefreshTokenValidity
       UserPoolId: !Ref UserPool
@@ -316,7 +239,7 @@ Resources:
   # Depends on UserPool for ID reference
     Type: "AWS::Cognito::UserPoolClient"
     Properties:
-      ClientName: okizemd5d7b765_app_client
+      ClientName: oki139d75fb_app_client
       
       GenerateSecret: !Ref userpoolClientGenerateSecret
       RefreshTokenValidity: !Ref userpoolClientRefreshTokenValidity
@@ -327,7 +250,7 @@ Resources:
   # Created to execute Lambda which gets userpool app client config values
     Type: 'AWS::IAM::Role'
     Properties:
-      RoleName: !If [ShouldNotCreateEnvResources, !Ref userpoolClientLambdaRole, !Join ['',['upClientLambdaRole', 'd5d7b765', !Select [3, !Split ['-', !Ref 'AWS::StackName']], '-', !Ref env]]]
+      RoleName: !If [ShouldNotCreateEnvResources, !Ref userpoolClientLambdaRole, !Join ['',['upClientLambdaRole', '139d75fb', !Select [3, !Split ['-', !Ref 'AWS::StackName']], '-', !Ref env]]]
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
@@ -369,8 +292,8 @@ Resources:
             - ' }'
             - '};'
       Handler: index.handler
-      Runtime: nodejs10.x
-      Timeout: '300'
+      Runtime: nodejs12.x
+      Timeout: 300
       Role: !GetAtt
         - UserPoolClientRole
         - Arn
@@ -381,7 +304,7 @@ Resources:
   # Marked as depending on UserPoolClientRole for easier to understand CFN sequencing
     Type: 'AWS::IAM::Policy'
     Properties:
-      PolicyName: okizemd5d7b765_userpoolclient_lambda_iam_policy
+      PolicyName: oki139d75fb_userpoolclient_lambda_iam_policy
       Roles:
         - !Ref UserPoolClientRole
       PolicyDocument:
@@ -398,7 +321,7 @@ Resources:
   # Marked as depending on UserPoolClientLambdaPolicy for easier to understand CFN sequencing
     Type: 'AWS::IAM::Policy'
     Properties:
-      PolicyName: okizemd5d7b765_userpoolclient_lambda_log_policy
+      PolicyName: oki139d75fb_userpoolclient_lambda_log_policy
       Roles:
         - !Ref UserPoolClientRole
       PolicyDocument:
@@ -438,7 +361,7 @@ Resources:
   # Always created
     Type: AWS::Cognito::IdentityPool
     Properties:
-      IdentityPoolName: !If [ShouldNotCreateEnvResources, 'okizemed5d7b765_identitypool_d5d7b765', !Join ['',['okizemed5d7b765_identitypool_d5d7b765', '__', !Ref env]]]
+      IdentityPoolName: !If [ShouldNotCreateEnvResources, 'oki139d75fb_identitypool_139d75fb', !Join ['',['oki139d75fb_identitypool_139d75fb', '__', !Ref env]]]
       
       CognitoIdentityProviders:
         - ClientId:  !Ref UserPoolClient
@@ -482,6 +405,9 @@ Outputs :
   UserPoolId:
     Value: !Ref 'UserPool'
     Description:  Id for the user pool
+  UserPoolArn:
+    Value: !GetAtt UserPool.Arn
+    Description:  Arn for the user pool
   UserPoolName:
     Value: !Ref userPoolName
   AppClientIDWeb:
@@ -493,6 +419,7 @@ Outputs :
   AppClientSecret:
     Value: !GetAtt UserPoolClientInputs.appSecret
     Condition: ShouldOutputAppClientSecrets
+  
   
   
   

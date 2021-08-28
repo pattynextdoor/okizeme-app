@@ -2,10 +2,16 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as gtag from '../lib/gtag'
 
+import Amplify, { Auth } from 'aws-amplify'
+import awsconfig from '../aws-exports'
+
 import '../styles/globals.scss'
 import '../styles/app.scss'
 
 import { AppProps } from 'next/app'
+
+Amplify.configure(awsconfig)
+Auth.configure(awsconfig)
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter()

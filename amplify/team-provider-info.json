@@ -1,4 +1,22 @@
 {
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-oki-staging-53733-authRole",
+      "UnauthRoleArn": "arn:aws:iam::453440541820:role/amplify-oki-staging-53733-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::453440541820:role/amplify-oki-staging-53733-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-oki-staging-53733-deployment",
+      "UnauthRoleName": "amplify-oki-staging-53733-unauthRole",
+      "StackName": "amplify-oki-staging-53733",
+      "StackId": "arn:aws:cloudformation:us-west-2:453440541820:stack/amplify-oki-staging-53733/650eb730-fb2f-11eb-9dde-0a9b91f626e1",
+      "AmplifyAppId": "d2d82misyn5b9h"
+    },
+    "categories": {
+      "auth": {
+        "oki139d75fb": {}
+      }
+    }
+  },
   "dev": {
     "awscloudformation": {
       "AuthRoleName": "amplify-okizeme-dev-231016-authRole",

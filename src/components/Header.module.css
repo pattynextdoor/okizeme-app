@@ -19,9 +19,6 @@
     display: none;
 }
 
-.logoLink {
-    grid-column-start: 2;
-}
 
 .logo {
     width: 120px;
@@ -30,12 +27,31 @@
     justify-self: right;
 }
 
+.headerLeft {
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    justify-self: start;
+}
+
+.headerLeft a {
+    margin: auto 10%;
+    color: #ccc;
+}
+
+.headerLeft a:hover {
+    color: #333;
+}
+
 .headerRight {
     margin-left: auto;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20px;
     justify-self: end;
+
+    width: 500px;
 }
 
 .headerRight a {
@@ -68,13 +84,13 @@
         justify-self: center;
     }
 
-    .headerRight {
+    /* .headerLeft {
         margin-left: 0;
         justify-self: center;
         width: 75%;
-    }
+    } */
 
-    .headerRight a {
+    .headerLeft a {
         margin: 0 10%;
         margin-left: 0;
     }
