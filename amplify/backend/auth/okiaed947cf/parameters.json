@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "oki139d75fb_identitypool_139d75fb",
+    "identityPoolName": "okiaed947cf_identitypool_aed947cf",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "oki139d75fb",
-    "userPoolName": "oki139d75fb_userpool_139d75fb",
+    "resourceNameTruncated": "okiaed947cf",
+    "userPoolName": "okiaed947cf_userpool_aed947cf",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -31,10 +31,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "oki139139d75fb_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "okiaedaed947cf_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "139d75fb",
-    "resourceName": "oki139d75fb",
+    "sharedId": "aed947cf",
+    "resourceName": "okiaed947cf",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -49,8 +49,14 @@
         ]
     },
     "useDefault": "default",
+    "triggers": "{}",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "breakCircularDependency": true,
+    "permissions": [],
     "dependsOn": []
 }

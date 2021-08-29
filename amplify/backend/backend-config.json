@@ -1,6 +1,6 @@
 {
   "auth": {
-    "oki139d75fb": {
+    "okiaed947cf": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -22,5 +22,12 @@
         ]
       }
     }
-  }
+  },
+  "storage": {
+    "okiProfilePics": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "function": {}
 }
